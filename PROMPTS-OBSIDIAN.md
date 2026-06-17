@@ -1,0 +1,19 @@
+# Mapa dos prompts
+
+- [[01-movimentos-de-influenciadora-para-tiktok-shop|Movimentos de influenciadora para TikTok Shop]] - Cria um video realista de influenciadora mostrando roupa com camera fixa, movimentos naturais e sem fala.
+- [[02-aproximando-da-camera|Aproximando da camera]] - Cria um video com a influenciadora se aproximando da camera de forma natural, mantendo ambiente e enquadramento estaveis.
+- [[03-cta-apontando-para-o-canto-inferior-esquerdo|CTA apontando para o canto inferior esquerdo]] - Cria um encerramento visual com sorriso natural e gesto de chamada para acao apontando para o canto inferior esquerdo.
+- [[04-gerar-em-json|Gerar em JSON]] - Analisa uma imagem de referencia e gera uma descricao estruturada em JSON com fidelidade visual alta.
+- [[05-upscale|Upscale]] - Transforma uma imagem em uma versao de upscale fiel, com mais nitidez e microdetalhes sem mudar a cena.
+- [[06-reformulacao-de-cenario|Reformulação de Cenário]] - Reinterpreta apenas o ambiente em estilo casa brasileira simples de baixa renda, retornando JSON.
+- [[07-novas-cenas|Novas Cenas]] - Mantem a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais proximo.
+- [[08-criar-cena-json|Criar Cena (JSON)]] - Gera uma nova composicao com a mesma modelo usando uma referencia de cenario em JSON.
+- [[09-enquadramento-zoom|Enquadramento / ZOOM]] - Altera enquadramento e proximidade da camera mantendo identidade visual e consistencia da referencia.
+- [[10-colagem-facial|Colagem Facial]] - Cria um conjunto de imagens mantendo a identidade facial travada em diferentes composicoes.
+- [[11-referencia-colagem|Referência / Colagem]] - Gera uma colagem de referencias para manter consistencia visual de pessoa, roupa e cena.
+- [[12-extrair-pose|Extrair Pose]] - Extrai pose, linguagem corporal e composicao de uma imagem para reutilizar como referencia.
+- [[13-extracao-de-roupa-json|Extração de Roupa (JSON)]] - Extrai detalhes de roupa em JSON, incluindo modelagem, tecido, cor e pontos visuais importantes.
+- [[14-poses-com-produto|Poses com Produto]] - Cria poses com produto mantendo campos travados e consistencia visual para geracao de imagem.
+- [[15-troca-de-pose|Troca de Pose]] - Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referencia.
+- [[16-pov-com-mao-gesticulando-sem-tocar-no-produto|POV com mao gesticulando sem tocar no produto]] - Cria video POV de TikTok Shop com mao feminina gesticulando ao lado da roupa sem tocar nela.
+- [[17-pov-com-mao-tocando-e-mostrando-o-tecido|POV com mao tocando e mostrando o tecido]] - Cria video POV de TikTok Shop com mao feminina tocando, alisando e mostrando textura do tecido.

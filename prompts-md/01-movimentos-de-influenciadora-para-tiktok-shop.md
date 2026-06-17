@@ -1,0 +1,108 @@
+# Movimentos de influenciadora para TikTok Shop
+
+**Categoria:** TikTok Shop - modelo usando roupa
+
+**O que faz:** Cria um video realista de influenciadora mostrando roupa com camera fixa, movimentos naturais e sem fala.
+
+**TXT para copiar:** [01-movimentos-de-influenciadora-para-tiktok-shop.txt](../prompts-txt/01-movimentos-de-influenciadora-para-tiktok-shop.txt)
+
+## Prompt
+
+```text
+Gere um vídeo vertical 916 com aparência extremamente realista, natural e
+orgânica, como um conteúdo autêntico de TikTok Shop. O resultado deve parecer
+uma gravação real, feita por uma influenciadora humana apresentando uma peça
+de roupa de forma espontânea, elegante e comercial, sem qualquer aparência
+artificial, robótica ou exagerada. A câmera deve permanecer totalmente fixa do
+início ao fim. Não fazer zoom, não fazer pan, não fazer tilt, não fazer tremores, não
+fazer reenquadramento e não alterar a perspectiva em nenhum momento. O
+enquadramento precisa permanecer rigorosamente igual durante todo o vídeo. O
+cenário deve permanecer completamente inalterado. Não mover, remover,
+adicionar, substituir ou modificar qualquer elemento do ambiente. Não alterar
+iluminação, sombras, reflexos, cores, profundidade, composição ou posição de
+objetos. Tudo no fundo deve permanecer absolutamente estático e consistente do
+começo ao fim. Apenas a influenciadora deve se mover. A influenciadora deve
+realizar movimentos suaves, leves, humanos e fluidos, mas com ritmo relativamente
+ágil, como alguém acostumada a gravar vídeos curtos para mostrar roupa de forma
+envolvente. Os movimentos não devem ser lentos demais nem parados demais. O
+ritmo deve transmitir naturalidade e dinamismo, como uma apresentação visual de
+produto feita para prender atenção nos primeiros segundos, mas sem parecer
+apressada, dura ou mecânica. Ela deve se comportar como uma influenciadora real
+apresentando a roupa de forma orgânica. O foco principal é mostrar o caimento, o
+ajuste no corpo, o tecido, o visual geral da peça e como ela veste em movimento. O
+comportamento deve parecer espontâneo, confiante, feminino e natural, sem
+
+teatralidade excessiva. Ela pode começar em uma pose relaxada e natural, com
+postura leve e expressão agradável. Em seguida, deve fazer pequenas
+movimentações contínuas para valorizar a roupa, como:
+dar um ou dois passos curtos e naturais;
+deslocar o peso do corpo entre uma perna e outra;
+girar levemente o tronco e o quadril;
+ficar por instantes em ângulo de 3/4;
+virar levemente de lado para mostrar melhor a modelagem;
+retornar suavemente para uma posição mais frontal;
+reposicionar os braços de forma espontânea;
+tocar a roupa de maneira delicada para destacar o tecido e o caimento.
+Ela deve usar as mãos de forma natural e funcional, como uma influenciadora
+mostrando o look. Pode:
+alisar suavemente a peça;
+tocar a cintura, barra, lateral ou parte frontal da roupa;
+ajustar discretamente algum detalhe do tecido;
+passar a mão pela roupa de cima para baixo de forma leve;
+segurar levemente a peça por um instante para mostrar melhor o caimento;
+fazer pequenos gestos suaves com as mãos próximos ao corpo, sempre de
+forma elegante e natural.
+Os movimentos dos braços e das mãos devem ser rápidos na medida certa, porém
+suaves e fluidos. Nada deve parecer travado. As articulações devem se mover com
+naturalidade, com microajustes realistas nos pulsos, dedos, cotovelos e ombros. As
+mãos não devem ficar rígidas, nem abertas de forma artificial, nem com dedos
+deformados. Os dedos devem permanecer relaxados, com pequenas variações
+naturais de posição.
+A influenciadora também pode fazer pequenos gestos típicos de apresentação de
+look, como:
+levar uma das mãos ao cabelo de forma leve e espontânea;
+afastar discretamente o cabelo do rosto ou do ombro;
+tocar a roupa logo em seguida;
+mudar sutilmente a postura para valorizar o visual;
+
+olhar para a peça por um instante e depois voltar a atenção para a câmera.
+A movimentação corporal deve incluir micro movimentos naturais o tempo todo.
+Isso inclui:
+respiração sutil e realista;
+pequenas correções de postura;
+leve balanço corporal;
+movimentos delicados de cabeça e pescoço;
+ombros relaxados com pequenas variações naturais;
+leves mudanças no eixo do corpo;
+transições suaves entre um gesto e outro.
+A expressão facial deve ser totalmente natural, humana e agradável. Ela pode
+manter um semblante leve, confiante e simpático, com um ar de quem está
+mostrando o produto de forma casual. Evitar expressões exageradas, atuação
+teatral, olhar vazio ou aparência de personagem artificial. O rosto deve parecer
+vivo, autêntico e espontâneo.
+É importante que os movimentos transmitam a sensação de uma apresentação
+visual de produto, e não de dança, atuação ou pose exagerada. O objetivo é
+parecer uma pessoa real mostrando a roupa de forma comercial, bonita e
+convincente, com naturalidade de influenciadora.
+Não gerar falas. Não reproduzir voz. Não criar narração. Não adicionar sons. Não
+incluir fala ambiente. Não fazer lip sync. Não movimentar a boca como se estivesse
+falando. A influenciadora deve permanecer em silêncio o tempo todo. Também não
+incluir legendas, textos na tela, ícones, logos, marcas d'água, interface ou qualquer
+elemento gráfico.
+Evite completamente:
+movimentos robóticos;
+gestos duros ou travados;
+aceleração artificial;
+coreografia exagerada;
+expressões forçadas;
+deformações no corpo, rosto, mãos ou dedos;
+mudanças na roupa;
+mudanças no cenário;
+
+alterações no enquadramento;
+inconsistências entre os frames.
+Prioridade máxima: realismo absoluto, câmera fixa, cenário 100% inalterado,
+nenhuma fala, nenhum som, e movimentos suaves, leves, naturais e humanos,
+porém com um ritmo mais rápido e envolvente, como uma influenciadora real
+apresentando a roupa de forma orgânica para TikTok Shop.
+```

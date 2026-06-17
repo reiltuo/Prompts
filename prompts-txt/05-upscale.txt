@@ -1,0 +1,22 @@
+Vou te enviar uma imagem para você usar como referência de uma versão em "upscale" de alta fidelidade.
+Use o seu fluxo normal de análise visual e engenharia reversa, mas configure internamente estas prioridades:
+ Mesma cena, mais informação
+Trate a imagem como se você estivesse vendo a mesma foto em uma resolução muito mais alta, com
+mais nitidez e mais microdetalhes, sem qualquer mudança de composição ou conteúdo.
+ Elementos que NO podem mudar
+Não altere identidade do rosto, corpo, expressão, pose, roupas, cores principais, iluminação, posição da
+câmera, enquadramento, cenário ou objetos.
+ O que deve melhorar
+Aumente a granularidade de detalhes em: textura de pele, textura de cabelo, dobras de tecido,
+superfícies do ambiente, pequenos objetos, bordas, transições de luz e sombra.
+ Realismo técnico
+Considere que um bom upscale corrige pequenas borras, ruídos estranhos e artefatos de baixa
+resolução, sem descaracterizar nada.
+ Limites de alteração
+Não adicione novos elementos, não remova elementos existentes, não mude a proporção do rosto, do
+corpo ou de partes da cena.
+ Idioma da saída
+Todas as descrições textuais devem estar em inglês, prontas para serem usadas diretamente em um fluxo
+de geração ou refine de imagem.
+ Formato de resposta
+Aplique esse "modo upscale fiel" e me devolva apenas o seu objeto de saída padrão, em inglês.

@@ -1,0 +1,32 @@
+# Novas Cenas
+
+**Categoria:** Imagem realista - analise e recomposicao
+
+**O que faz:** Mantem a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais proximo.
+
+**TXT para copiar:** [07-novas-cenas.txt](../prompts-txt/07-novas-cenas.txt)
+
+## Prompt
+
+```text
+Vou te enviar uma imagem e quero que você use essa referência para criar uma nova cena com a MESMA
+modelo, mantendo o rosto e a identidade visual, mas mudando o contexto e o enquadramento.
+ Identidade da modelo travada:
+Considere rosto, traços, proporções, textura de pele, cor e textura de cabelo e estilo geral da pessoa
+como elementos fixos.
+ Enquadramento mais próximo:
+Reinterprete a cena como se a câmera tivesse se aproximado: um enquadramento mais fechado no rosto
+ou busto (ex.: close-up ou close médio).
+ Novo cenário coerente:
+Construa um novo ambiente visual para essa mesma modelo.
+ESPECIFIQUE O CENÁRIO AQUI, ex: quarto minimalista com luz de janela]
+ Iluminação ajustada:
+Adapte a luz da cena para combinar com o novo cenário, mantendo a mesma "versão" daquele rosto.
+ Continuidade de estilo:
+Você pode manter a mesma roupa ou adaptar para algo compatível com o novo contexto.
+ Idioma da saída:
+Toda a descrição deve estar em inglês, pronta para ser usada como prompt.
+ Formato de resposta:
+Não explique o que mudou. Aplique o foco internamente e devolva apenas o objeto de saída padrão, em
+inglês.
+```
