@@ -1,10 +1,10 @@
-# POV com mao gesticulando sem tocar no produto
+# POV com mão gesticulando sem tocar
 
-**Categoria:** TikTok Shop - POV de produto
+**Categoria:** Vídeos
 
-**O que faz:** Cria video POV de TikTok Shop com mao feminina gesticulando ao lado da roupa sem tocar nela.
+**O que faz:** Cria vídeo POV de TikTok Shop com mão feminina gesticulando ao lado da roupa sem tocar no produto.
 
-**TXT para copiar:** [16-pov-com-mao-gesticulando-sem-tocar-no-produto.txt](../prompts-txt/16-pov-com-mao-gesticulando-sem-tocar-no-produto.txt)
+**TXT para copiar:** [abrir TXT](txt/04-pov-mao-gesticulando-sem-tocar.txt)
 
 ## Prompt
 

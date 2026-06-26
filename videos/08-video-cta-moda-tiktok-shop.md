@@ -1,10 +1,10 @@
-# Movimento CTA para moda TikTok Shop
+# Vídeo CTA para Moda TikTok Shop
 
-**Categoria:** Moda TikTok Shop - prompts secretos
+**Categoria:** Vídeos
 
-**O que faz:** Cria video CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala.
+**O que faz:** Cria vídeo CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala.
 
-**TXT para copiar:** [21-movimento-cta-para-moda-tiktok-shop.txt](../prompts-txt/21-movimento-cta-para-moda-tiktok-shop.txt)
+**TXT para copiar:** [abrir TXT](txt/08-video-cta-moda-tiktok-shop.txt)
 
 ## Prompt
 

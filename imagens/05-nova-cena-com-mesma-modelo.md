@@ -1,10 +1,10 @@
-# Novas Cenas
+# Nova cena com a mesma modelo
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Mantem a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais proximo.
+**O que faz:** Mantém a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais próximo.
 
-**TXT para copiar:** [07-novas-cenas.txt](../prompts-txt/07-novas-cenas.txt)
+**TXT para copiar:** [abrir TXT](txt/05-nova-cena-com-mesma-modelo.txt)
 
 ## Prompt
 

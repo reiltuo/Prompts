@@ -1,10 +1,10 @@
-# Referência / Colagem
+# Colagem de referências visuais
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Gera uma colagem de referencias para manter consistencia visual de pessoa, roupa e cena.
+**O que faz:** Gera uma colagem de referências para manter consistência de pessoa, roupa, ambiente e estilo.
 
-**TXT para copiar:** [11-referencia-colagem.txt](../prompts-txt/11-referencia-colagem.txt)
+**TXT para copiar:** [abrir TXT](txt/09-colagem-de-referencias-visuais.txt)
 
 ## Prompt
 

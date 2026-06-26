@@ -1,10 +1,10 @@
-# Movimentos de influenciadora para TikTok Shop
+# Vídeo de influenciadora mostrando roupa
 
-**Categoria:** TikTok Shop - modelo usando roupa
+**Categoria:** Vídeos
 
-**O que faz:** Cria um video realista de influenciadora mostrando roupa com camera fixa, movimentos naturais e sem fala.
+**O que faz:** Cria um vídeo realista de influenciadora mostrando roupa com câmera fixa, movimentos naturais e sem fala.
 
-**TXT para copiar:** [01-movimentos-de-influenciadora-para-tiktok-shop.txt](../prompts-txt/01-movimentos-de-influenciadora-para-tiktok-shop.txt)
+**TXT para copiar:** [abrir TXT](txt/01-video-influenciadora-mostrando-roupa.txt)
 
 ## Prompt
 

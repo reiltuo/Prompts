@@ -1,10 +1,10 @@
-# Upscale
+# Upscale fiel da imagem
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Transforma uma imagem em uma versao de upscale fiel, com mais nitidez e microdetalhes sem mudar a cena.
+**O que faz:** Cria uma versão mais nítida e detalhada da mesma imagem, sem mudar cena, identidade ou composição.
 
-**TXT para copiar:** [05-upscale.txt](../prompts-txt/05-upscale.txt)
+**TXT para copiar:** [abrir TXT](txt/03-upscale-fiel-da-imagem.txt)
 
 ## Prompt
 

@@ -1,10 +1,10 @@
-# Movimento natural para video de moda
+# Vídeo com movimento natural de moda
 
-**Categoria:** Moda TikTok Shop - prompts secretos
+**Categoria:** Vídeos
 
-**O que faz:** Anima uma modelo com movimento continuo, natural e levemente rapido, sem giro e sem congelar.
+**O que faz:** Anima uma modelo com movimento contínuo, natural e levemente rápido, sem giro e sem congelar.
 
-**TXT para copiar:** [19-movimento-natural-para-video-de-moda.txt](../prompts-txt/19-movimento-natural-para-video-de-moda.txt)
+**TXT para copiar:** [abrir TXT](txt/06-video-movimento-natural-de-moda.txt)
 
 ## Prompt
 

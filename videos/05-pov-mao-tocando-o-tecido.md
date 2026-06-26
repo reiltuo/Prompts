@@ -1,10 +1,10 @@
-# POV com mao tocando e mostrando o tecido
+# POV com mão tocando o tecido
 
-**Categoria:** TikTok Shop - POV de produto
+**Categoria:** Vídeos
 
-**O que faz:** Cria video POV de TikTok Shop com mao feminina tocando, alisando e mostrando textura do tecido.
+**O que faz:** Cria vídeo POV com mão feminina tocando, alisando e mostrando textura do tecido.
 
-**TXT para copiar:** [17-pov-com-mao-tocando-e-mostrando-o-tecido.txt](../prompts-txt/17-pov-com-mao-tocando-e-mostrando-o-tecido.txt)
+**TXT para copiar:** [abrir TXT](txt/05-pov-mao-tocando-o-tecido.txt)
 
 ## Prompt
 

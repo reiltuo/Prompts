@@ -1,10 +1,10 @@
-# Troca de Pose
+# Trocar pose mantendo cena
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referencia.
+**O que faz:** Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referência.
 
-**TXT para copiar:** [15-troca-de-pose.txt](../prompts-txt/15-troca-de-pose.txt)
+**TXT para copiar:** [abrir TXT](txt/13-trocar-pose-mantendo-cena.txt)
 
 ## Prompt
 

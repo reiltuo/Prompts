@@ -1,10 +1,10 @@
-# Colagem Facial
+# Colagem facial consistente
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Cria um conjunto de imagens mantendo a identidade facial travada em diferentes composicoes.
+**O que faz:** Cria um conjunto de imagens mantendo a identidade facial travada em diferentes composições.
 
-**TXT para copiar:** [10-colagem-facial.txt](../prompts-txt/10-colagem-facial.txt)
+**TXT para copiar:** [abrir TXT](txt/08-colagem-facial-consistente.txt)
 
 ## Prompt
 

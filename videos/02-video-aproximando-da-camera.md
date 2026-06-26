@@ -1,10 +1,10 @@
-# Aproximando da camera
+# Vídeo aproximando da câmera
 
-**Categoria:** TikTok Shop - modelo usando roupa
+**Categoria:** Vídeos
 
-**O que faz:** Cria um video com a influenciadora se aproximando da camera de forma natural, mantendo ambiente e enquadramento estaveis.
+**O que faz:** Cria um vídeo em que a influenciadora se aproxima da câmera mantendo cenário, roupa e enquadramento estáveis.
 
-**TXT para copiar:** [02-aproximando-da-camera.txt](../prompts-txt/02-aproximando-da-camera.txt)
+**TXT para copiar:** [abrir TXT](txt/02-video-aproximando-da-camera.txt)
 
 ## Prompt
 

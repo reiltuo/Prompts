@@ -1,10 +1,10 @@
-# Extrair Pose
+# Extrair pose da imagem
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Extrai pose, linguagem corporal e composicao de uma imagem para reutilizar como referencia.
+**O que faz:** Extrai pose, linguagem corporal e composição para reutilizar como referência.
 
-**TXT para copiar:** [12-extrair-pose.txt](../prompts-txt/12-extrair-pose.txt)
+**TXT para copiar:** [abrir TXT](txt/10-extrair-pose-da-imagem.txt)
 
 ## Prompt
 

@@ -1,10 +1,10 @@
-# Modelo, ambiente e produto para imagem de moda
+# Imagem com modelo, ambiente e roupa
 
-**Categoria:** Moda TikTok Shop - prompts secretos
+**Categoria:** Imagens
 
-**O que faz:** Combina referencia de ambiente, identidade de avatar e roupa para criar imagem realista de moda.
+**O que faz:** Combina ambiente, pose, identidade do avatar e roupa para criar uma imagem realista de moda.
 
-**TXT para copiar:** [18-modelo-ambiente-e-produto-para-imagem-de-moda.txt](../prompts-txt/18-modelo-ambiente-e-produto-para-imagem-de-moda.txt)
+**TXT para copiar:** [abrir TXT](txt/01-imagem-modelo-ambiente-roupa.txt)
 
 ## Prompt
 

@@ -1,10 +1,10 @@
-# Extração de Roupa (JSON)
+# Extrair roupa em JSON
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Extrai detalhes de roupa em JSON, incluindo modelagem, tecido, cor e pontos visuais importantes.
+**O que faz:** Extrai detalhes da roupa, como modelagem, tecido, cor, caimento e pontos visuais importantes.
 
-**TXT para copiar:** [13-extracao-de-roupa-json.txt](../prompts-txt/13-extracao-de-roupa-json.txt)
+**TXT para copiar:** [abrir TXT](txt/11-extrair-roupa-em-json.txt)
 
 ## Prompt
 

@@ -1,10 +1,10 @@
-# Reformulação de Cenário
+# Recriar cenário brasileiro simples
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Reinterpreta apenas o ambiente em estilo casa brasileira simples de baixa renda, retornando JSON.
+**O que faz:** Reinterpreta o ambiente como casa brasileira simples de baixa renda e retorna uma especificação em JSON.
 
-**TXT para copiar:** [06-reformulacao-de-cenario.txt](../prompts-txt/06-reformulacao-de-cenario.txt)
+**TXT para copiar:** [abrir TXT](txt/04-recriar-cenario-brasileiro-simples.txt)
 
 ## Prompt
 

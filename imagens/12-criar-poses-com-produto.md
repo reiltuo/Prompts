@@ -1,10 +1,10 @@
-# Poses com Produto
+# Criar poses com produto
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Cria poses com produto mantendo campos travados e consistencia visual para geracao de imagem.
+**O que faz:** Cria poses com produto mantendo campos travados e consistência visual para geração de imagem.
 
-**TXT para copiar:** [14-poses-com-produto.txt](../prompts-txt/14-poses-com-produto.txt)
+**TXT para copiar:** [abrir TXT](txt/12-criar-poses-com-produto.txt)
 
 ## Prompt
 

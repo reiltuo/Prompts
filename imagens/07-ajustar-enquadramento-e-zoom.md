@@ -1,10 +1,10 @@
-# Enquadramento / ZOOM
+# Ajustar enquadramento e zoom
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Altera enquadramento e proximidade da camera mantendo identidade visual e consistencia da referencia.
+**O que faz:** Altera proximidade da câmera e enquadramento mantendo identidade, estilo e consistência visual.
 
-**TXT para copiar:** [09-enquadramento-zoom.txt](../prompts-txt/09-enquadramento-zoom.txt)
+**TXT para copiar:** [abrir TXT](txt/07-ajustar-enquadramento-e-zoom.txt)
 
 ## Prompt
 

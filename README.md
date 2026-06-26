@@ -1,57 +1,46 @@
 # Biblioteca de prompts realistas
 
-Pacote organizado para GitHub e Obsidian. Cada prompt tem dois arquivos: um `.md` visual com titulo, finalidade e bloco de prompt, e um `.txt` cru para copiar e colar rapido.
+Prompts organizados por tipo de uso. Cada item tem uma página visual em `.md` e um arquivo `.txt` cru para copiar e colar rápido.
 
 ## Como usar
 
-1. Abra uma categoria abaixo.
-2. Clique no nome do prompt para ver a versao visual.
-3. Use o link `TXT` quando quiser copiar somente o prompt cru.
+1. Escolha `Imagens` ou `Vídeos`.
+2. Clique no nome do prompt para ver a explicação e o bloco completo.
+3. Clique em `TXT` para abrir só o prompt cru.
 
-## Indice rapido
-
-### TikTok Shop - modelo usando roupa
+## Imagens
 
 | Prompt | O que faz | TXT |
 |---|---|---|
-| [Movimentos de influenciadora para TikTok Shop](prompts-md/01-movimentos-de-influenciadora-para-tiktok-shop.md) | Cria um video realista de influenciadora mostrando roupa com camera fixa, movimentos naturais e sem fala. | [TXT](prompts-txt/01-movimentos-de-influenciadora-para-tiktok-shop.txt) |
-| [Aproximando da camera](prompts-md/02-aproximando-da-camera.md) | Cria um video com a influenciadora se aproximando da camera de forma natural, mantendo ambiente e enquadramento estaveis. | [TXT](prompts-txt/02-aproximando-da-camera.txt) |
-| [CTA apontando para o canto inferior esquerdo](prompts-md/03-cta-apontando-para-o-canto-inferior-esquerdo.md) | Cria um encerramento visual com sorriso natural e gesto de chamada para acao apontando para o canto inferior esquerdo. | [TXT](prompts-txt/03-cta-apontando-para-o-canto-inferior-esquerdo.txt) |
+| [Imagem com modelo, ambiente e roupa](imagens/01-imagem-modelo-ambiente-roupa.md) | Combina ambiente, pose, identidade do avatar e roupa para criar uma imagem realista de moda. | [TXT](imagens/txt/01-imagem-modelo-ambiente-roupa.txt) |
+| [Analisar imagem em JSON](imagens/02-analisar-imagem-em-json.md) | Analisa uma imagem de referência e gera uma descrição estruturada em JSON com alta fidelidade visual. | [TXT](imagens/txt/02-analisar-imagem-em-json.txt) |
+| [Upscale fiel da imagem](imagens/03-upscale-fiel-da-imagem.md) | Cria uma versão mais nítida e detalhada da mesma imagem, sem mudar cena, identidade ou composição. | [TXT](imagens/txt/03-upscale-fiel-da-imagem.txt) |
+| [Recriar cenário brasileiro simples](imagens/04-recriar-cenario-brasileiro-simples.md) | Reinterpreta o ambiente como casa brasileira simples de baixa renda e retorna uma especificação em JSON. | [TXT](imagens/txt/04-recriar-cenario-brasileiro-simples.txt) |
+| [Nova cena com a mesma modelo](imagens/05-nova-cena-com-mesma-modelo.md) | Mantém a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais próximo. | [TXT](imagens/txt/05-nova-cena-com-mesma-modelo.txt) |
+| [Criar cena com JSON de referência](imagens/06-criar-cena-com-json-de-referencia.md) | Gera uma nova composição com a mesma modelo usando uma referência de cenário em JSON. | [TXT](imagens/txt/06-criar-cena-com-json-de-referencia.txt) |
+| [Ajustar enquadramento e zoom](imagens/07-ajustar-enquadramento-e-zoom.md) | Altera proximidade da câmera e enquadramento mantendo identidade, estilo e consistência visual. | [TXT](imagens/txt/07-ajustar-enquadramento-e-zoom.txt) |
+| [Colagem facial consistente](imagens/08-colagem-facial-consistente.md) | Cria um conjunto de imagens mantendo a identidade facial travada em diferentes composições. | [TXT](imagens/txt/08-colagem-facial-consistente.txt) |
+| [Colagem de referências visuais](imagens/09-colagem-de-referencias-visuais.md) | Gera uma colagem de referências para manter consistência de pessoa, roupa, ambiente e estilo. | [TXT](imagens/txt/09-colagem-de-referencias-visuais.txt) |
+| [Extrair pose da imagem](imagens/10-extrair-pose-da-imagem.md) | Extrai pose, linguagem corporal e composição para reutilizar como referência. | [TXT](imagens/txt/10-extrair-pose-da-imagem.txt) |
+| [Extrair roupa em JSON](imagens/11-extrair-roupa-em-json.md) | Extrai detalhes da roupa, como modelagem, tecido, cor, caimento e pontos visuais importantes. | [TXT](imagens/txt/11-extrair-roupa-em-json.txt) |
+| [Criar poses com produto](imagens/12-criar-poses-com-produto.md) | Cria poses com produto mantendo campos travados e consistência visual para geração de imagem. | [TXT](imagens/txt/12-criar-poses-com-produto.txt) |
+| [Trocar pose mantendo cena](imagens/13-trocar-pose-mantendo-cena.md) | Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referência. | [TXT](imagens/txt/13-trocar-pose-mantendo-cena.txt) |
 
-### Imagem realista - analise e recomposicao
-
-| Prompt | O que faz | TXT |
-|---|---|---|
-| [Gerar em JSON](prompts-md/04-gerar-em-json.md) | Analisa uma imagem de referencia e gera uma descricao estruturada em JSON com fidelidade visual alta. | [TXT](prompts-txt/04-gerar-em-json.txt) |
-| [Upscale](prompts-md/05-upscale.md) | Transforma uma imagem em uma versao de upscale fiel, com mais nitidez e microdetalhes sem mudar a cena. | [TXT](prompts-txt/05-upscale.txt) |
-| [Reformulação de Cenário](prompts-md/06-reformulacao-de-cenario.md) | Reinterpreta apenas o ambiente em estilo casa brasileira simples de baixa renda, retornando JSON. | [TXT](prompts-txt/06-reformulacao-de-cenario.txt) |
-| [Novas Cenas](prompts-md/07-novas-cenas.md) | Mantem a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais proximo. | [TXT](prompts-txt/07-novas-cenas.txt) |
-| [Criar Cena (JSON)](prompts-md/08-criar-cena-json.md) | Gera uma nova composicao com a mesma modelo usando uma referencia de cenario em JSON. | [TXT](prompts-txt/08-criar-cena-json.txt) |
-| [Enquadramento / ZOOM](prompts-md/09-enquadramento-zoom.md) | Altera enquadramento e proximidade da camera mantendo identidade visual e consistencia da referencia. | [TXT](prompts-txt/09-enquadramento-zoom.txt) |
-| [Colagem Facial](prompts-md/10-colagem-facial.md) | Cria um conjunto de imagens mantendo a identidade facial travada em diferentes composicoes. | [TXT](prompts-txt/10-colagem-facial.txt) |
-| [Referência / Colagem](prompts-md/11-referencia-colagem.md) | Gera uma colagem de referencias para manter consistencia visual de pessoa, roupa e cena. | [TXT](prompts-txt/11-referencia-colagem.txt) |
-| [Extrair Pose](prompts-md/12-extrair-pose.md) | Extrai pose, linguagem corporal e composicao de uma imagem para reutilizar como referencia. | [TXT](prompts-txt/12-extrair-pose.txt) |
-| [Extração de Roupa (JSON)](prompts-md/13-extracao-de-roupa-json.md) | Extrai detalhes de roupa em JSON, incluindo modelagem, tecido, cor e pontos visuais importantes. | [TXT](prompts-txt/13-extracao-de-roupa-json.txt) |
-| [Poses com Produto](prompts-md/14-poses-com-produto.md) | Cria poses com produto mantendo campos travados e consistencia visual para geracao de imagem. | [TXT](prompts-txt/14-poses-com-produto.txt) |
-| [Troca de Pose](prompts-md/15-troca-de-pose.md) | Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referencia. | [TXT](prompts-txt/15-troca-de-pose.txt) |
-
-### TikTok Shop - POV de produto
+## Vídeos
 
 | Prompt | O que faz | TXT |
 |---|---|---|
-| [POV com mao gesticulando sem tocar no produto](prompts-md/16-pov-com-mao-gesticulando-sem-tocar-no-produto.md) | Cria video POV de TikTok Shop com mao feminina gesticulando ao lado da roupa sem tocar nela. | [TXT](prompts-txt/16-pov-com-mao-gesticulando-sem-tocar-no-produto.txt) |
-| [POV com mao tocando e mostrando o tecido](prompts-md/17-pov-com-mao-tocando-e-mostrando-o-tecido.md) | Cria video POV de TikTok Shop com mao feminina tocando, alisando e mostrando textura do tecido. | [TXT](prompts-txt/17-pov-com-mao-tocando-e-mostrando-o-tecido.txt) |
-
-### Moda TikTok Shop - prompts secretos
-
-| Prompt | O que faz | TXT |
-|---|---|---|
-| [Modelo, ambiente e produto para imagem de moda](prompts-md/18-modelo-ambiente-e-produto-para-imagem-de-moda.md) | Combina referencia de ambiente, identidade de avatar e roupa para criar imagem realista de moda. | [TXT](prompts-txt/18-modelo-ambiente-e-produto-para-imagem-de-moda.txt) |
-| [Movimento natural para video de moda](prompts-md/19-movimento-natural-para-video-de-moda.md) | Anima uma modelo com movimento continuo, natural e levemente rapido, sem giro e sem congelar. | [TXT](prompts-txt/19-movimento-natural-para-video-de-moda.txt) |
-| [Movimento mexendo no cabelo](prompts-md/20-movimento-mexendo-no-cabelo.md) | Cria video POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressoes humanas naturais. | [TXT](prompts-txt/20-movimento-mexendo-no-cabelo.txt) |
-| [Movimento CTA para moda TikTok Shop](prompts-md/21-movimento-cta-para-moda-tiktok-shop.md) | Cria video CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala. | [TXT](prompts-txt/21-movimento-cta-para-moda-tiktok-shop.txt) |
+| [Vídeo de influenciadora mostrando roupa](videos/01-video-influenciadora-mostrando-roupa.md) | Cria um vídeo realista de influenciadora mostrando roupa com câmera fixa, movimentos naturais e sem fala. | [TXT](videos/txt/01-video-influenciadora-mostrando-roupa.txt) |
+| [Vídeo aproximando da câmera](videos/02-video-aproximando-da-camera.md) | Cria um vídeo em que a influenciadora se aproxima da câmera mantendo cenário, roupa e enquadramento estáveis. | [TXT](videos/txt/02-video-aproximando-da-camera.txt) |
+| [Vídeo CTA apontando para baixo](videos/03-video-cta-apontando-para-baixo.md) | Cria um encerramento visual com sorriso natural e gesto de chamada para ação apontando para baixo. | [TXT](videos/txt/03-video-cta-apontando-para-baixo.txt) |
+| [POV com mão gesticulando sem tocar](videos/04-pov-mao-gesticulando-sem-tocar.md) | Cria vídeo POV de TikTok Shop com mão feminina gesticulando ao lado da roupa sem tocar no produto. | [TXT](videos/txt/04-pov-mao-gesticulando-sem-tocar.txt) |
+| [POV com mão tocando o tecido](videos/05-pov-mao-tocando-o-tecido.md) | Cria vídeo POV com mão feminina tocando, alisando e mostrando textura do tecido. | [TXT](videos/txt/05-pov-mao-tocando-o-tecido.txt) |
+| [Vídeo com movimento natural de moda](videos/06-video-movimento-natural-de-moda.md) | Anima uma modelo com movimento contínuo, natural e levemente rápido, sem giro e sem congelar. | [TXT](videos/txt/06-video-movimento-natural-de-moda.txt) |
+| [Vídeo mexendo no cabelo](videos/07-video-mexendo-no-cabelo.md) | Cria vídeo POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressões humanas naturais. | [TXT](videos/txt/07-video-mexendo-no-cabelo.txt) |
+| [Vídeo CTA para Moda TikTok Shop](videos/08-video-cta-moda-tiktok-shop.md) | Cria vídeo CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala. | [TXT](videos/txt/08-video-cta-moda-tiktok-shop.txt) |
 
 ## Estrutura
 
-- `prompts-md/`: arquivos visuais para ler no GitHub ou Obsidian.
-- `prompts-txt/`: arquivos de texto cru, um prompt por arquivo.
+- `imagens/`: prompts para criação, análise, edição, pose, roupa, cenário e colagens de imagem.
+- `videos/`: prompts para animação, apresentação de produto, POV, movimento natural e CTA.
+- `imagens/txt/` e `videos/txt/`: versões cruas para copiar direto.

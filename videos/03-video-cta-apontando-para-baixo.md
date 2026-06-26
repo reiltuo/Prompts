@@ -1,10 +1,10 @@
-# CTA apontando para o canto inferior esquerdo
+# Vídeo CTA apontando para baixo
 
-**Categoria:** TikTok Shop - modelo usando roupa
+**Categoria:** Vídeos
 
-**O que faz:** Cria um encerramento visual com sorriso natural e gesto de chamada para acao apontando para o canto inferior esquerdo.
+**O que faz:** Cria um encerramento visual com sorriso natural e gesto de chamada para ação apontando para baixo.
 
-**TXT para copiar:** [03-cta-apontando-para-o-canto-inferior-esquerdo.txt](../prompts-txt/03-cta-apontando-para-o-canto-inferior-esquerdo.txt)
+**TXT para copiar:** [abrir TXT](txt/03-video-cta-apontando-para-baixo.txt)
 
 ## Prompt
 

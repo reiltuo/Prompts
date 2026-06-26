@@ -1,10 +1,10 @@
-# Gerar em JSON
+# Analisar imagem em JSON
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Analisa uma imagem de referencia e gera uma descricao estruturada em JSON com fidelidade visual alta.
+**O que faz:** Analisa uma imagem de referência e gera uma descrição estruturada em JSON com alta fidelidade visual.
 
-**TXT para copiar:** [04-gerar-em-json.txt](../prompts-txt/04-gerar-em-json.txt)
+**TXT para copiar:** [abrir TXT](txt/02-analisar-imagem-em-json.txt)
 
 ## Prompt
 

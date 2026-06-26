@@ -1,10 +1,10 @@
-# Movimento mexendo no cabelo
+# Vídeo mexendo no cabelo
 
-**Categoria:** Moda TikTok Shop - prompts secretos
+**Categoria:** Vídeos
 
-**O que faz:** Cria video POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressoes humanas naturais.
+**O que faz:** Cria vídeo POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressões humanas naturais.
 
-**TXT para copiar:** [20-movimento-mexendo-no-cabelo.txt](../prompts-txt/20-movimento-mexendo-no-cabelo.txt)
+**TXT para copiar:** [abrir TXT](txt/07-video-mexendo-no-cabelo.txt)
 
 ## Prompt
 

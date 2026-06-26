@@ -1,10 +1,10 @@
-# Criar Cena (JSON)
+# Criar cena com JSON de referência
 
-**Categoria:** Imagem realista - analise e recomposicao
+**Categoria:** Imagens
 
-**O que faz:** Gera uma nova composicao com a mesma modelo usando uma referencia de cenario em JSON.
+**O que faz:** Gera uma nova composição com a mesma modelo usando uma referência de cenário em JSON.
 
-**TXT para copiar:** [08-criar-cena-json.txt](../prompts-txt/08-criar-cena-json.txt)
+**TXT para copiar:** [abrir TXT](txt/06-criar-cena-com-json-de-referencia.txt)
 
 ## Prompt
 
