@@ -17,3 +17,7 @@
 - [[15-troca-de-pose|Troca de Pose]] - Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referencia.
 - [[16-pov-com-mao-gesticulando-sem-tocar-no-produto|POV com mao gesticulando sem tocar no produto]] - Cria video POV de TikTok Shop com mao feminina gesticulando ao lado da roupa sem tocar nela.
 - [[17-pov-com-mao-tocando-e-mostrando-o-tecido|POV com mao tocando e mostrando o tecido]] - Cria video POV de TikTok Shop com mao feminina tocando, alisando e mostrando textura do tecido.
+- [[18-modelo-ambiente-e-produto-para-imagem-de-moda|Modelo, ambiente e produto para imagem de moda]] - Combina referencia de ambiente, identidade de avatar e roupa para criar imagem realista de moda.
+- [[19-movimento-natural-para-video-de-moda|Movimento natural para video de moda]] - Anima uma modelo com movimento continuo, natural e levemente rapido, sem giro e sem congelar.
+- [[20-movimento-mexendo-no-cabelo|Movimento mexendo no cabelo]] - Cria video POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressoes humanas naturais.
+- [[21-movimento-cta-para-moda-tiktok-shop|Movimento CTA para moda TikTok Shop]] - Cria video CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala.

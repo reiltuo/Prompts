@@ -1,0 +1,23 @@
+# Movimento natural para video de moda
+
+**Categoria:** Moda TikTok Shop - prompts secretos
+
+**O que faz:** Anima uma modelo com movimento continuo, natural e levemente rapido, sem giro e sem congelar.
+
+**TXT para copiar:** [19-movimento-natural-para-video-de-moda.txt](../prompts-txt/19-movimento-natural-para-video-de-moda.txt)
+
+## Prompt
+
+```text
+{ "animation_style": "realistic_fashion_presentation", "camera": { "fixed": true, "no_zoom":
+true, "no_reframe": true }, "motion": { "type": "continuous", "speed": "natural_slightly_fast",
+"no_pause": true, "no_freeze": true }, "position": { "stay_near_same_spot": true,
+"small_natural_steps": true, "no_large_movement": true }, "sequence": { "start":
+"facing_camera", "action": { "type": "natural_flow", "description": "subject keeps moving
+naturally all the time" }, "fabric": { "type": "light_touch", "area": "clothing", "no_pull": true },
+"movement": { "type": "small_side_shift", "max_angle": "10_degrees", "no_turn": true,
+"no_spin": true, "no_360": true } }, "body": { "hip": "subtle_continuous", "weight":
+"always_shifting", "no_static": true }, "face": { "expression": "natural", "smile": "brief_subtle",
+"no_constant": true }, "rules": { "no_rotation": true, "no_360": true, "no_freeze": true,
+"no_exaggeration": true }, "final": "natural continuous movement, no rotation, no freeze"}
+```

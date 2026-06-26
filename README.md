@@ -42,6 +42,15 @@ Pacote organizado para GitHub e Obsidian. Cada prompt tem dois arquivos: um `.md
 | [POV com mao gesticulando sem tocar no produto](prompts-md/16-pov-com-mao-gesticulando-sem-tocar-no-produto.md) | Cria video POV de TikTok Shop com mao feminina gesticulando ao lado da roupa sem tocar nela. | [TXT](prompts-txt/16-pov-com-mao-gesticulando-sem-tocar-no-produto.txt) |
 | [POV com mao tocando e mostrando o tecido](prompts-md/17-pov-com-mao-tocando-e-mostrando-o-tecido.md) | Cria video POV de TikTok Shop com mao feminina tocando, alisando e mostrando textura do tecido. | [TXT](prompts-txt/17-pov-com-mao-tocando-e-mostrando-o-tecido.txt) |
 
+### Moda TikTok Shop - prompts secretos
+
+| Prompt | O que faz | TXT |
+|---|---|---|
+| [Modelo, ambiente e produto para imagem de moda](prompts-md/18-modelo-ambiente-e-produto-para-imagem-de-moda.md) | Combina referencia de ambiente, identidade de avatar e roupa para criar imagem realista de moda. | [TXT](prompts-txt/18-modelo-ambiente-e-produto-para-imagem-de-moda.txt) |
+| [Movimento natural para video de moda](prompts-md/19-movimento-natural-para-video-de-moda.md) | Anima uma modelo com movimento continuo, natural e levemente rapido, sem giro e sem congelar. | [TXT](prompts-txt/19-movimento-natural-para-video-de-moda.txt) |
+| [Movimento mexendo no cabelo](prompts-md/20-movimento-mexendo-no-cabelo.md) | Cria video POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressoes humanas naturais. | [TXT](prompts-txt/20-movimento-mexendo-no-cabelo.txt) |
+| [Movimento CTA para moda TikTok Shop](prompts-md/21-movimento-cta-para-moda-tiktok-shop.md) | Cria video CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala. | [TXT](prompts-txt/21-movimento-cta-para-moda-tiktok-shop.txt) |
+
 ## Estrutura
 
 - `prompts-md/`: arquivos visuais para ler no GitHub ou Obsidian.
