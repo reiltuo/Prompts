@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_04_weight_shift_waist_hand. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_09_half_step_with_soft_smile. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,20 +47,23 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_04_weight_shift_waist_hand",
-          "name": "Natural weight shift with hand to waist",
-          "description": "The subject uses a subtle body-language hook: a small posture adjustment, one hand resting naturally on the waist and a soft shift of the hips.",
+          "hook_id": "hook_09_half_step_with_soft_smile",
+          "name": "Passo e sorriso",
+          "main_effect": "Creates a natural approach hook without looking like a runway walk.",
           "movement_details": [
-            "The subject gently shifts her weight onto one leg.",
-            "One hand naturally moves to rest on the waist.",
-            "The opposite arm remains relaxed.",
-            "Her hip movement is extremely subtle, not sensualized and not exaggerated.",
-            "The movement helps show the outfit fit naturally.",
-            "Her shoulders remain loose.",
-            "Her expression remains neutral and confident.",
-            "No runway pose and no aggressive modeling."
+            "The subject begins at the original distance from the camera.",
+            "She takes one small half-step forward, not a full walk.",
+            "The step is slow enough to look natural but not sluggish.",
+            "Her arms remain relaxed and move subtly with the body.",
+            "As she steps forward, a short soft smile appears.",
+            "The smile lasts less than one second.",
+            "After the step, her expression returns to neutral.",
+            "The movement must feel like a real person getting closer to show the outfit.",
+            "No exaggerated posing.",
+            "No hip-forward pose.",
+            "No runway-style movement."
           ],
-          "transition_to_main_sequence": "From the waist-hand position, she takes a small step forward and begins the main outfit presentation."
+          "transition_to_main_sequence": "Once she finishes the half-step, one hand gently touches the existing upper-front fabric area."
         }
       ]
     },
@@ -325,6 +328,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_04_weight_shift_waist_hand"
+    "selected_hook_id": "hook_09_half_step_with_soft_smile"
   }
 }

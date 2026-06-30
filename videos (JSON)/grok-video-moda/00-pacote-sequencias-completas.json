@@ -16,7 +16,7 @@
     "variations": [
       {
         "variation_id": "sequence_01_casual_approach_and_fabric_touch",
-        "name": "Casual approach and fabric touch",
+        "name": "Aproximar e tocar",
         "best_for": "General clothing presentation, especially dresses, tops, sets and fitted outfits.",
         "timeline": [
           {
@@ -54,7 +54,7 @@
       },
       {
         "variation_id": "sequence_02_hair_adjustment_then_outfit_display",
-        "name": "Hair adjustment then outfit display",
+        "name": "Ajustar cabelo e mostrar roupa",
         "best_for": "More feminine and natural lifestyle-style fashion videos.",
         "timeline": [
           {
@@ -92,7 +92,7 @@
       },
       {
         "variation_id": "sequence_03_silhouette_showcase",
-        "name": "Subtle silhouette showcase",
+        "name": "Mostrar o caimento",
         "best_for": "Outfits where the fit, body shape, waistline or overall silhouette matters.",
         "timeline": [
           {
@@ -134,7 +134,7 @@
       },
       {
         "variation_id": "sequence_04_texture_focus",
-        "name": "Texture-focused presentation",
+        "name": "Mostrar a textura",
         "best_for": "Clothing with visible fabric texture, ribbed material, soft fabric, lace already existing in the original image, knitwear or detailed material.",
         "timeline": [
           {
@@ -176,7 +176,7 @@
       },
       {
         "variation_id": "sequence_05_real_person_idle_to_presenting",
-        "name": "Real person idle to presenting",
+        "name": "Agir naturalmente",
         "best_for": "Making AI-generated women look more human and less staged.",
         "timeline": [
           {

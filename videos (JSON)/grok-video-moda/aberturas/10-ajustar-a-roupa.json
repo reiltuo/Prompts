@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_12_natural_breath_and_eye_contact. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_10_light_sleeve_or_side_adjustment. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,22 +47,21 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_12_natural_breath_and_eye_contact",
-          "name": "Natural breath and eye contact",
-          "main_effect": "Creates a realistic human presence through small breathing motion and calm eye contact.",
+          "hook_id": "hook_10_light_sleeve_or_side_adjustment",
+          "name": "Ajustar a roupa",
+          "main_effect": "Uses a realistic clothing-adjustment gesture to catch attention while preserving the original outfit.",
           "movement_details": [
-            "The subject starts still but not frozen.",
-            "A subtle natural breathing motion is visible in the shoulders and upper torso.",
-            "She makes calm eye contact with the camera.",
-            "Her lips remain softly closed.",
-            "Her face stays neutral, relaxed and human.",
-            "She slightly shifts her weight from one leg to the other.",
-            "The movement is minimal but alive.",
-            "No smile is required at the beginning.",
-            "No dramatic facial expression.",
-            "No robotic stillness."
+            "The subject lightly adjusts an existing clothing area visible in the source image.",
+            "If the outfit has sleeves, she may lightly smooth one sleeve.",
+            "If the outfit has no sleeve, she may lightly smooth the side seam or upper-front fabric area.",
+            "The hand movement is delicate and brief.",
+            "She does not pull the clothing aggressively.",
+            "She does not change the shape, size, color or design of the clothing.",
+            "Her gaze briefly drops toward the hand, then returns to the camera.",
+            "Her face remains calm, with a very subtle expression change.",
+            "The fabric reacts naturally with tiny folds and contact shadows."
           ],
-          "transition_to_main_sequence": "After the brief eye contact, she gently moves one hand toward the outfit and begins the fabric presentation."
+          "transition_to_main_sequence": "After the adjustment, her hand relaxes down or moves naturally to the waist before the main body movement."
         }
       ]
     },
@@ -327,6 +326,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_12_natural_breath_and_eye_contact"
+    "selected_hook_id": "hook_10_light_sleeve_or_side_adjustment"
   }
 }

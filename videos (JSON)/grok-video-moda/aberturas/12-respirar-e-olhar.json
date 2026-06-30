@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_08_subtle_shoulder_reset. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_12_natural_breath_and_eye_contact. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,21 +47,22 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_08_subtle_shoulder_reset",
-          "name": "Subtle shoulder reset",
-          "main_effect": "Captures attention through a realistic posture adjustment, like a person preparing to show the outfit naturally.",
+          "hook_id": "hook_12_natural_breath_and_eye_contact",
+          "name": "Respirar e olhar",
+          "main_effect": "Creates a realistic human presence through small breathing motion and calm eye contact.",
           "movement_details": [
-            "The subject starts relaxed, with shoulders slightly natural and not stiff.",
-            "She makes a tiny shoulder reset, as if correcting her posture.",
-            "The movement is symmetrical but not robotic.",
-            "Her chest and upper body rise very subtly with natural breathing.",
-            "One hand may move softly toward the waist or side of the body.",
-            "Her expression remains neutral and calm.",
-            "Her eyes stay near the camera without an intense stare.",
-            "The outfit moves slightly with the posture correction.",
-            "The fabric physics must remain natural and minimal."
+            "The subject starts still but not frozen.",
+            "A subtle natural breathing motion is visible in the shoulders and upper torso.",
+            "She makes calm eye contact with the camera.",
+            "Her lips remain softly closed.",
+            "Her face stays neutral, relaxed and human.",
+            "She slightly shifts her weight from one leg to the other.",
+            "The movement is minimal but alive.",
+            "No smile is required at the beginning.",
+            "No dramatic facial expression.",
+            "No robotic stillness."
           ],
-          "transition_to_main_sequence": "After the posture reset, she shifts her weight gently and continues into the outfit presentation."
+          "transition_to_main_sequence": "After the brief eye contact, she gently moves one hand toward the outfit and begins the fabric presentation."
         }
       ]
     },
@@ -326,6 +327,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_08_subtle_shoulder_reset"
+    "selected_hook_id": "hook_12_natural_breath_and_eye_contact"
   }
 }

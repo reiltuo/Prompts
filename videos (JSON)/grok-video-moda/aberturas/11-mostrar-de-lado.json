@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_15_soft_hair_tuck_then_outfit_touch. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_11_small_side_angle_reveal. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,23 +47,23 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_15_soft_hair_tuck_then_outfit_touch",
-          "name": "Soft hair tuck then outfit touch",
-          "main_effect": "Combines a realistic self-adjustment with a clothing presentation cue.",
+          "hook_id": "hook_11_small_side_angle_reveal",
+          "name": "Mostrar de lado",
+          "main_effect": "Shows the fit of the outfit with a slight angle change, creating visual interest without a full turn.",
           "movement_details": [
-            "The subject briefly raises one hand toward the side of the head.",
-            "She softly tucks or brushes hair backward near the ear or side of the face.",
-            "The gesture lasts about one second.",
-            "The hand then naturally moves down toward the outfit.",
-            "She lightly touches the existing upper-front fabric area.",
-            "The transition from hair to fabric must feel casual and unplanned.",
-            "Her expression remains neutral at first.",
-            "A small natural smile may appear during the clothing touch.",
-            "No exaggerated hair flip.",
-            "No beauty-commercial pose.",
-            "No added earrings, jewelry or accessories."
+            "The subject starts facing the camera.",
+            "She subtly rotates her torso a few degrees to one side.",
+            "The rotation is small, controlled and casual.",
+            "Her head remains mostly toward the camera.",
+            "Her hips follow naturally but very subtly.",
+            "One hand may rest softly on the waist.",
+            "The outfit remains exactly the same as in the base image.",
+            "The fabric moves naturally with the torso.",
+            "She does not spin.",
+            "She does not create a side-profile pose.",
+            "She does not exaggerate the silhouette."
           ],
-          "transition_to_main_sequence": "After touching the fabric, she releases it and continues with subtle body movement and posture variation."
+          "transition_to_main_sequence": "She returns slightly toward the center and begins the main clothing presentation."
         }
       ]
     },
@@ -328,6 +328,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_15_soft_hair_tuck_then_outfit_touch"
+    "selected_hook_id": "hook_11_small_side_angle_reveal"
   }
 }

@@ -26,7 +26,7 @@
     "hook_variations": [
       {
         "hook_id": "hook_07_quick_glance_down_then_camera",
-        "name": "Quick glance at outfit then camera",
+        "name": "Olhar roupa e câmera",
         "main_effect": "Creates attention by making the subject briefly acknowledge the outfit before looking back at the viewer.",
         "movement_details": [
           "The subject starts in the same position as the base image.",
@@ -44,7 +44,7 @@
       },
       {
         "hook_id": "hook_08_subtle_shoulder_reset",
-        "name": "Subtle shoulder reset",
+        "name": "Ajustar os ombros",
         "main_effect": "Captures attention through a realistic posture adjustment, like a person preparing to show the outfit naturally.",
         "movement_details": [
           "The subject starts relaxed, with shoulders slightly natural and not stiff.",
@@ -61,7 +61,7 @@
       },
       {
         "hook_id": "hook_09_half_step_with_soft_smile",
-        "name": "Half-step forward with brief soft smile",
+        "name": "Passo e sorriso",
         "main_effect": "Creates a natural approach hook without looking like a runway walk.",
         "movement_details": [
           "The subject begins at the original distance from the camera.",
@@ -80,7 +80,7 @@
       },
       {
         "hook_id": "hook_10_light_sleeve_or_side_adjustment",
-        "name": "Light sleeve or side adjustment",
+        "name": "Ajustar a roupa",
         "main_effect": "Uses a realistic clothing-adjustment gesture to catch attention while preserving the original outfit.",
         "movement_details": [
           "The subject lightly adjusts an existing clothing area visible in the source image.",
@@ -97,7 +97,7 @@
       },
       {
         "hook_id": "hook_11_small_side_angle_reveal",
-        "name": "Small side-angle reveal",
+        "name": "Mostrar de lado",
         "main_effect": "Shows the fit of the outfit with a slight angle change, creating visual interest without a full turn.",
         "movement_details": [
           "The subject starts facing the camera.",
@@ -116,7 +116,7 @@
       },
       {
         "hook_id": "hook_12_natural_breath_and_eye_contact",
-        "name": "Natural breath and eye contact",
+        "name": "Respirar e olhar",
         "main_effect": "Creates a realistic human presence through small breathing motion and calm eye contact.",
         "movement_details": [
           "The subject starts still but not frozen.",
@@ -134,7 +134,7 @@
       },
       {
         "hook_id": "hook_13_hand_enters_frame_naturally",
-        "name": "Hand enters frame naturally",
+        "name": "Levantar a mão",
         "main_effect": "Catches attention through a hand movement that enters the viewer's focus without becoming distracting.",
         "movement_details": [
           "The subject begins with both hands relaxed.",
@@ -152,7 +152,7 @@
       },
       {
         "hook_id": "hook_14_small_backward_then_forward_motion",
-        "name": "Small backward-then-forward natural motion",
+        "name": "Recuar e avançar",
         "main_effect": "Creates dynamic attention by using a very small natural distance change without zoom or camera movement.",
         "movement_details": [
           "The subject begins at the original position.",
@@ -171,7 +171,7 @@
       },
       {
         "hook_id": "hook_15_soft_hair_tuck_then_outfit_touch",
-        "name": "Soft hair tuck then outfit touch",
+        "name": "Cabelo e roupa",
         "main_effect": "Combines a realistic self-adjustment with a clothing presentation cue.",
         "movement_details": [
           "The subject briefly raises one hand toward the side of the head.",
@@ -190,7 +190,7 @@
       },
       {
         "hook_id": "hook_16_camera_awareness_micro_reaction",
-        "name": "Camera-awareness micro reaction",
+        "name": "Perceber a câmera",
         "main_effect": "Makes the subject feel alive by showing a tiny reaction as if she just noticed the camera recording.",
         "movement_details": [
           "The subject starts naturally, not fully posed.",
@@ -207,7 +207,7 @@
       },
       {
         "hook_id": "hook_17_outfit_silhouette_check",
-        "name": "Outfit silhouette check",
+        "name": "Conferir a roupa",
         "main_effect": "Creates attention by showing the subject briefly checking the fit and silhouette of the outfit.",
         "movement_details": [
           "The subject gently looks down toward the outfit.",
@@ -226,7 +226,7 @@
       },
       {
         "hook_id": "hook_18_soft_turn_with_neutral_face",
-        "name": "Soft turn with neutral face",
+        "name": "Virar sem sorrir",
         "main_effect": "Uses controlled body movement to create visual interest without relying on smiles or exaggerated gestures.",
         "movement_details": [
           "The subject begins facing the camera.",

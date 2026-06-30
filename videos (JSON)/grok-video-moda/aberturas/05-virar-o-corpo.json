@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_14_small_backward_then_forward_motion. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_05_small_torso_angle_change. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,23 +47,21 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_14_small_backward_then_forward_motion",
-          "name": "Small backward-then-forward natural motion",
-          "main_effect": "Creates dynamic attention by using a very small natural distance change without zoom or camera movement.",
+          "hook_id": "hook_05_small_torso_angle_change",
+          "name": "Virar o corpo",
+          "description": "The subject creates attention by slightly rotating her torso, naturally revealing the fit and silhouette of the outfit without posing aggressively.",
           "movement_details": [
-            "The subject begins at the original position.",
-            "She makes a tiny natural lean or half-step backward, as if adjusting her balance.",
-            "Immediately after, she takes a small step forward toward the camera.",
-            "The movement must be smooth and realistic.",
-            "Her body remains balanced.",
-            "Her arms react naturally to the movement.",
-            "Her facial expression stays relaxed.",
-            "A brief soft smile may appear only after she steps forward.",
-            "No bouncing motion.",
-            "No dance-like movement.",
-            "No dramatic entrance."
+            "The subject starts facing the camera.",
+            "She gently rotates her torso a few degrees to one side.",
+            "The rotation is small and realistic.",
+            "Her feet stay naturally placed.",
+            "The outfit moves with natural fabric physics.",
+            "She briefly looks at the camera with a calm expression.",
+            "No dramatic side pose.",
+            "No full spin.",
+            "No fashion runway behavior."
           ],
-          "transition_to_main_sequence": "Once she returns forward, she gently touches the existing front fabric area and begins the outfit presentation."
+          "transition_to_main_sequence": "After the torso angle change, she returns closer to center and performs the subtle fabric-touch sequence."
         }
       ]
     },
@@ -328,6 +326,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_14_small_backward_then_forward_motion"
+    "selected_hook_id": "hook_05_small_torso_angle_change"
   }
 }

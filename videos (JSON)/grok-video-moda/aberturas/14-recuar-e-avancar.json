@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_17_outfit_silhouette_check. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_14_small_backward_then_forward_motion. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,23 +47,23 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_17_outfit_silhouette_check",
-          "name": "Outfit silhouette check",
-          "main_effect": "Creates attention by showing the subject briefly checking the fit and silhouette of the outfit.",
+          "hook_id": "hook_14_small_backward_then_forward_motion",
+          "name": "Recuar e avançar",
+          "main_effect": "Creates dynamic attention by using a very small natural distance change without zoom or camera movement.",
           "movement_details": [
-            "The subject gently looks down toward the outfit.",
-            "She subtly smooths the side or front area of the existing clothing.",
-            "The gesture is very light and realistic.",
-            "She slightly adjusts her stance to show the outfit fit.",
-            "One foot may shift a few centimeters forward.",
-            "Her shoulders stay relaxed.",
-            "Her face returns to neutral after the check.",
-            "She looks back at the camera naturally.",
-            "No pulling fabric tight.",
-            "No reshaping the outfit.",
-            "No adding or changing any clothing details."
+            "The subject begins at the original position.",
+            "She makes a tiny natural lean or half-step backward, as if adjusting her balance.",
+            "Immediately after, she takes a small step forward toward the camera.",
+            "The movement must be smooth and realistic.",
+            "Her body remains balanced.",
+            "Her arms react naturally to the movement.",
+            "Her facial expression stays relaxed.",
+            "A brief soft smile may appear only after she steps forward.",
+            "No bouncing motion.",
+            "No dance-like movement.",
+            "No dramatic entrance."
           ],
-          "transition_to_main_sequence": "After the silhouette check, she steps back slightly and rotates her torso a few degrees to continue showing the clothing."
+          "transition_to_main_sequence": "Once she returns forward, she gently touches the existing front fabric area and begins the outfit presentation."
         }
       ]
     },
@@ -328,6 +328,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_17_outfit_silhouette_check"
+    "selected_hook_id": "hook_14_small_backward_then_forward_motion"
   }
 }

@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_09_half_step_with_soft_smile. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_07_quick_glance_down_then_camera. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,23 +47,22 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_09_half_step_with_soft_smile",
-          "name": "Half-step forward with brief soft smile",
-          "main_effect": "Creates a natural approach hook without looking like a runway walk.",
+          "hook_id": "hook_07_quick_glance_down_then_camera",
+          "name": "Olhar roupa e câmera",
+          "main_effect": "Creates attention by making the subject briefly acknowledge the outfit before looking back at the viewer.",
           "movement_details": [
-            "The subject begins at the original distance from the camera.",
-            "She takes one small half-step forward, not a full walk.",
-            "The step is slow enough to look natural but not sluggish.",
-            "Her arms remain relaxed and move subtly with the body.",
-            "As she steps forward, a short soft smile appears.",
-            "The smile lasts less than one second.",
-            "After the step, her expression returns to neutral.",
-            "The movement must feel like a real person getting closer to show the outfit.",
-            "No exaggerated posing.",
-            "No hip-forward pose.",
-            "No runway-style movement."
+            "The subject starts in the same position as the base image.",
+            "Her face is neutral and relaxed.",
+            "She briefly glances down toward the front area of the outfit for less than one second.",
+            "Her eyes then return naturally to the camera.",
+            "As her gaze returns, her posture subtly straightens.",
+            "A very small soft smile appears for a brief moment, then fades.",
+            "The movement must feel like she is casually checking the outfit before showing it.",
+            "No dramatic chin movement.",
+            "No exaggerated smile.",
+            "No forced model expression."
           ],
-          "transition_to_main_sequence": "Once she finishes the half-step, one hand gently touches the existing upper-front fabric area."
+          "transition_to_main_sequence": "After looking back at the camera, she calmly takes a small step forward and begins the subtle fabric-touch sequence."
         }
       ]
     },
@@ -328,6 +327,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_09_half_step_with_soft_smile"
+    "selected_hook_id": "hook_07_quick_glance_down_then_camera"
   }
 }

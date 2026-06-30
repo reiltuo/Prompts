@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_06_hair_adjustment_intro. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_15_soft_hair_tuck_then_outfit_touch. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,21 +47,23 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_06_hair_adjustment_intro",
-          "name": "Casual hair adjustment intro",
-          "description": "The subject starts the video with a casual self-adjustment gesture, lightly brushing hair backward near the side of the head before presenting the outfit.",
+          "hook_id": "hook_15_soft_hair_tuck_then_outfit_touch",
+          "name": "Cabelo e roupa",
+          "main_effect": "Combines a realistic self-adjustment with a clothing presentation cue.",
           "movement_details": [
-            "The subject begins with a neutral relaxed expression.",
-            "One hand rises naturally toward the side of the head.",
-            "She lightly brushes her hair backward.",
-            "The hair movement is minimal and physically natural.",
+            "The subject briefly raises one hand toward the side of the head.",
+            "She softly tucks or brushes hair backward near the ear or side of the face.",
             "The gesture lasts about one second.",
-            "The hand immediately returns to a relaxed position.",
+            "The hand then naturally moves down toward the outfit.",
+            "She lightly touches the existing upper-front fabric area.",
+            "The transition from hair to fabric must feel casual and unplanned.",
+            "Her expression remains neutral at first.",
+            "A small natural smile may appear during the clothing touch.",
             "No exaggerated hair flip.",
-            "No beauty-ad style pose.",
-            "No continuous smiling."
+            "No beauty-commercial pose.",
+            "No added earrings, jewelry or accessories."
           ],
-          "transition_to_main_sequence": "After the hand returns down, she takes a small natural step forward and begins showing the clothing."
+          "transition_to_main_sequence": "After touching the fabric, she releases it and continues with subtle body movement and posture variation."
         }
       ]
     },
@@ -326,6 +328,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_06_hair_adjustment_intro"
+    "selected_hook_id": "hook_15_soft_hair_tuck_then_outfit_touch"
   }
 }

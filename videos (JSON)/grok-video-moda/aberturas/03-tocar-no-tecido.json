@@ -48,7 +48,7 @@
       "hook_variations": [
         {
           "hook_id": "hook_03_soft_fabric_attention",
-          "name": "Soft fabric attention gesture",
+          "name": "Tocar no tecido",
           "description": "The subject immediately creates attention by lightly touching the upper-front area of the outfit that already exists in the image, as if showing fabric texture or fit.",
           "movement_details": [
             "The subject starts still for a fraction of a second.",

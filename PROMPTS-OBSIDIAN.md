@@ -32,7 +32,7 @@
 - [[videos (JSON)/01-mostrar-roupa.json|Mostrar roupa em JSON]]: Apresentação ágil e natural com câmera e cenário totalmente fixos.
 - [[videos (JSON)/02-aproximar-da-camera.json|Aproximar da câmera em JSON]]: Aproximação, recuo e ângulos corporais sutis com câmera fixa.
 - [[videos (JSON)/03-cta-apontar-para-baixo.json|CTA apontar para baixo em JSON]]: Aproximação, sorriso e gesto para o canto inferior esquerdo.
-- [[videos (JSON)/04-mao-gesticular-sem-tocar.json|Mão gesticular sem tocar em JSON]]: Gestos conversacionais à direita sem contato com o produto.
+- [[videos (JSON)/04-mao-gesticular-sem-tocar.json|Mão gesticular sem tocar em JSON]]: Gestos conversacionais Ã  direita sem contato com o produto.
 - [[videos (JSON)/05-mao-tocar-no-tecido.json|Mão tocar no tecido em JSON]]: Demonstração tátil com física realista do tecido.
 - [[videos (JSON)/06-movimento-natural.json|Movimento natural em JSON]]: Movimento contínuo sem rotação ou pausa.
 - [[videos (JSON)/07-ajustar-cabelo.json|Ajustar cabelo em JSON]]: Aproximação, toque no laço, recuo e ajuste sutil do cabelo.

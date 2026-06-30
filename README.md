@@ -47,7 +47,7 @@ Prompts organizados por tipo de uso. Cada item tem uma página visual em `.md` e
 | Mostrar roupa | Apresentação ágil e natural de roupa com câmera e cenário totalmente fixos. | [JSON](videos%20%28JSON%29/01-mostrar-roupa.json) |
 | Aproximar da câmera | Aproximação, recuo e ângulos corporais sutis com câmera fixa. | [JSON](videos%20%28JSON%29/02-aproximar-da-camera.json) |
 | CTA apontar para baixo | CTA silencioso com aproximação, sorriso e apontar para o canto inferior esquerdo. | [JSON](videos%20%28JSON%29/03-cta-apontar-para-baixo.json) |
-| Mão gesticular sem tocar | Gestos conversacionais à direita sem contato com o produto. | [JSON](videos%20%28JSON%29/04-mao-gesticular-sem-tocar.json) |
+| Mão gesticular sem tocar | Gestos conversacionais Ã  direita sem contato com o produto. | [JSON](videos%20%28JSON%29/04-mao-gesticular-sem-tocar.json) |
 | Mão tocar no tecido | Demonstração tátil com interação e física realista do tecido. | [JSON](videos%20%28JSON%29/05-mao-tocar-no-tecido.json) |
 | Movimento natural | Movimento corporal contínuo perto do ponto inicial, sem rotação ou pausa. | [JSON](videos%20%28JSON%29/06-movimento-natural.json) |
 | Ajustar cabelo | Aproximação, toque no laço, recuo, expressões alternadas e ajuste do cabelo. | [JSON](videos%20%28JSON%29/07-ajustar-cabelo.json) |
@@ -65,6 +65,6 @@ Prompts organizados por tipo de uso. Cada item tem uma página visual em `.md` e
 
 ## Coleção Grok para vídeo de moda
 
-Coleção com 18 hooks e 5 sequências completas, separados em JSON pronto para uso com imagem base.
+Coleção com 18 aberturas e 5 sequências completas, separados em JSON pronto para uso com imagem base.
 
 [Abrir coleção Grok](videos%20%28JSON%29/grok-video-moda/README.md)

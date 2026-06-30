@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_11_small_side_angle_reveal. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_08_subtle_shoulder_reset. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,23 +47,21 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_11_small_side_angle_reveal",
-          "name": "Small side-angle reveal",
-          "main_effect": "Shows the fit of the outfit with a slight angle change, creating visual interest without a full turn.",
+          "hook_id": "hook_08_subtle_shoulder_reset",
+          "name": "Ajustar os ombros",
+          "main_effect": "Captures attention through a realistic posture adjustment, like a person preparing to show the outfit naturally.",
           "movement_details": [
-            "The subject starts facing the camera.",
-            "She subtly rotates her torso a few degrees to one side.",
-            "The rotation is small, controlled and casual.",
-            "Her head remains mostly toward the camera.",
-            "Her hips follow naturally but very subtly.",
-            "One hand may rest softly on the waist.",
-            "The outfit remains exactly the same as in the base image.",
-            "The fabric moves naturally with the torso.",
-            "She does not spin.",
-            "She does not create a side-profile pose.",
-            "She does not exaggerate the silhouette."
+            "The subject starts relaxed, with shoulders slightly natural and not stiff.",
+            "She makes a tiny shoulder reset, as if correcting her posture.",
+            "The movement is symmetrical but not robotic.",
+            "Her chest and upper body rise very subtly with natural breathing.",
+            "One hand may move softly toward the waist or side of the body.",
+            "Her expression remains neutral and calm.",
+            "Her eyes stay near the camera without an intense stare.",
+            "The outfit moves slightly with the posture correction.",
+            "The fabric physics must remain natural and minimal."
           ],
-          "transition_to_main_sequence": "She returns slightly toward the center and begins the main clothing presentation."
+          "transition_to_main_sequence": "After the posture reset, she shifts her weight gently and continues into the outfit presentation."
         }
       ]
     },
@@ -328,6 +326,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_11_small_side_angle_reveal"
+    "selected_hook_id": "hook_08_subtle_shoulder_reset"
   }
 }

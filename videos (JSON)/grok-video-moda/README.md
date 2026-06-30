@@ -13,35 +13,35 @@ Escolha apenas um hook ou uma sequência por geração. Cada arquivo já contém
 - [Pacote com sequências completas](00-pacote-sequencias-completas.json)
 - [Manifesto](manifest.json)
 
-## Hooks separados
+## Aberturas separadas
 
-| Nº | Hook | Arquivo |
+| Nº | Abertura | Arquivo |
 |---:|---|---|
-| 1 | Small step forward with natural eye contact | [JSON](hooks/01-small-step-forward-with-natural-eye-contact.json) |
-| 2 | Subtle head turn then focus on camera | [JSON](hooks/02-subtle-head-turn-then-focus-on-camera.json) |
-| 3 | Soft fabric attention gesture | [JSON](hooks/03-soft-fabric-attention-gesture.json) |
-| 4 | Natural weight shift with hand to waist | [JSON](hooks/04-natural-weight-shift-with-hand-to-waist.json) |
-| 5 | Small torso angle change to show fit | [JSON](hooks/05-small-torso-angle-change-to-show-fit.json) |
-| 6 | Casual hair adjustment intro | [JSON](hooks/06-casual-hair-adjustment-intro.json) |
-| 7 | Quick glance at outfit then camera | [JSON](hooks/07-quick-glance-at-outfit-then-camera.json) |
-| 8 | Subtle shoulder reset | [JSON](hooks/08-subtle-shoulder-reset.json) |
-| 9 | Half-step forward with brief soft smile | [JSON](hooks/09-half-step-forward-with-brief-soft-smile.json) |
-| 10 | Light sleeve or side adjustment | [JSON](hooks/10-light-sleeve-or-side-adjustment.json) |
-| 11 | Small side-angle reveal | [JSON](hooks/11-small-side-angle-reveal.json) |
-| 12 | Natural breath and eye contact | [JSON](hooks/12-natural-breath-and-eye-contact.json) |
-| 13 | Hand enters frame naturally | [JSON](hooks/13-hand-enters-frame-naturally.json) |
-| 14 | Small backward-then-forward natural motion | [JSON](hooks/14-small-backward-then-forward-natural-motion.json) |
-| 15 | Soft hair tuck then outfit touch | [JSON](hooks/15-soft-hair-tuck-then-outfit-touch.json) |
-| 16 | Camera-awareness micro reaction | [JSON](hooks/16-camera-awareness-micro-reaction.json) |
-| 17 | Outfit silhouette check | [JSON](hooks/17-outfit-silhouette-check.json) |
-| 18 | Soft turn with neutral face | [JSON](hooks/18-soft-turn-with-neutral-face.json) |
+| 1 | Passo e olhar | [JSON](aberturas/01-passo-e-olhar.json) |
+| 2 | Virar e olhar | [JSON](aberturas/02-virar-e-olhar.json) |
+| 3 | Tocar no tecido | [JSON](aberturas/03-tocar-no-tecido.json) |
+| 4 | Mão na cintura | [JSON](aberturas/04-mao-na-cintura.json) |
+| 5 | Virar o corpo | [JSON](aberturas/05-virar-o-corpo.json) |
+| 6 | Ajustar o cabelo | [JSON](aberturas/06-ajustar-o-cabelo.json) |
+| 7 | Olhar roupa e câmera | [JSON](aberturas/07-olhar-roupa-e-camera.json) |
+| 8 | Ajustar os ombros | [JSON](aberturas/08-ajustar-os-ombros.json) |
+| 9 | Passo e sorriso | [JSON](aberturas/09-passo-e-sorriso.json) |
+| 10 | Ajustar a roupa | [JSON](aberturas/10-ajustar-a-roupa.json) |
+| 11 | Mostrar de lado | [JSON](aberturas/11-mostrar-de-lado.json) |
+| 12 | Respirar e olhar | [JSON](aberturas/12-respirar-e-olhar.json) |
+| 13 | Levantar a mão | [JSON](aberturas/13-levantar-a-mao.json) |
+| 14 | Recuar e avançar | [JSON](aberturas/14-recuar-e-avancar.json) |
+| 15 | Cabelo e roupa | [JSON](aberturas/15-cabelo-e-roupa.json) |
+| 16 | Perceber a câmera | [JSON](aberturas/16-perceber-a-camera.json) |
+| 17 | Conferir a roupa | [JSON](aberturas/17-conferir-a-roupa.json) |
+| 18 | Virar sem sorrir | [JSON](aberturas/18-virar-sem-sorrir.json) |
 
 ## Sequências completas separadas
 
 | Nº | Sequência | Melhor uso | Arquivo |
 |---:|---|---|---|
-| 1 | Casual approach and fabric touch | General clothing presentation, especially dresses, tops, sets and fitted outfits. | [JSON](sequencias/01-casual-approach-and-fabric-touch.json) |
-| 2 | Hair adjustment then outfit display | More feminine and natural lifestyle-style fashion videos. | [JSON](sequencias/02-hair-adjustment-then-outfit-display.json) |
-| 3 | Subtle silhouette showcase | Outfits where the fit, body shape, waistline or overall silhouette matters. | [JSON](sequencias/03-subtle-silhouette-showcase.json) |
-| 4 | Texture-focused presentation | Clothing with visible fabric texture, ribbed material, soft fabric, lace already existing in the original image, knitwear or detailed material. | [JSON](sequencias/04-texture-focused-presentation.json) |
-| 5 | Real person idle to presenting | Making AI-generated women look more human and less staged. | [JSON](sequencias/05-real-person-idle-to-presenting.json) |
+| 1 | Aproximar e tocar | General clothing presentation, especially dresses, tops, sets and fitted outfits. | [JSON](sequencias/01-aproximar-e-tocar.json) |
+| 2 | Ajustar cabelo e mostrar roupa | More feminine and natural lifestyle-style fashion videos. | [JSON](sequencias/02-ajustar-cabelo-e-mostrar.json) |
+| 3 | Mostrar o caimento | Outfits where the fit, body shape, waistline or overall silhouette matters. | [JSON](sequencias/03-mostrar-caimento.json) |
+| 4 | Mostrar a textura | Clothing with visible fabric texture, ribbed material, soft fabric, lace already existing in the original image, knitwear or detailed material. | [JSON](sequencias/04-mostrar-textura.json) |
+| 5 | Agir naturalmente | Making AI-generated women look more human and less staged. | [JSON](sequencias/05-agir-naturalmente.json) |

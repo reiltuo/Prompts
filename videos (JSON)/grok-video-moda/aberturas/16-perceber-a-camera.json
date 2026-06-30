@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_18_soft_turn_with_neutral_face. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_16_camera_awareness_micro_reaction. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,23 +47,21 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_18_soft_turn_with_neutral_face",
-          "name": "Soft turn with neutral face",
-          "main_effect": "Uses controlled body movement to create visual interest without relying on smiles or exaggerated gestures.",
+          "hook_id": "hook_16_camera_awareness_micro_reaction",
+          "name": "Perceber a câmera",
+          "main_effect": "Makes the subject feel alive by showing a tiny reaction as if she just noticed the camera recording.",
           "movement_details": [
-            "The subject begins facing the camera.",
-            "She softly turns her upper body slightly to one side.",
-            "Her head follows the movement very subtly.",
-            "Her face remains neutral and relaxed.",
-            "Her arms stay natural and close to the body.",
-            "The outfit moves slightly with the torso.",
-            "She pauses briefly for a fraction of a second, not frozen.",
-            "She then returns toward the camera angle.",
-            "No full-body spin.",
-            "No dramatic model look.",
-            "No seductive pose."
+            "The subject starts naturally, not fully posed.",
+            "She makes a tiny facial reaction as if becoming aware of the camera.",
+            "The reaction is subtle: a small eye focus change, slight cheek movement or very faint smile.",
+            "She does not look surprised.",
+            "She does not act confused.",
+            "She does not overperform.",
+            "Her posture becomes slightly more presentable in a natural way.",
+            "One hand may settle softly on the waist.",
+            "The movement must feel like a real person preparing to show the outfit casually."
           ],
-          "transition_to_main_sequence": "After returning toward the camera, she begins the main fabric-touch and outfit presentation sequence."
+          "transition_to_main_sequence": "After the micro reaction, she takes a small natural step forward and begins the fabric interaction."
         }
       ]
     },
@@ -328,6 +326,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_18_soft_turn_with_neutral_face"
+    "selected_hook_id": "hook_16_camera_awareness_micro_reaction"
   }
 }

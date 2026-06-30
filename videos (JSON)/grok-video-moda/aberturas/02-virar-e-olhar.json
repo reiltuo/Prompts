@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_01_micro_step_eye_contact. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_02_subtle_head_turn_then_focus. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,20 +47,20 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_01_micro_step_eye_contact",
-          "name": "Small step forward with natural eye contact",
-          "description": "The subject begins at the original distance, makes brief natural eye contact with the camera, then takes one small step forward as if casually starting to show the outfit.",
+          "hook_id": "hook_02_subtle_head_turn_then_focus",
+          "name": "Virar e olhar",
+          "description": "The subject starts with her head slightly turned away, then gently turns her face toward the camera, creating a natural attention hook before presenting the outfit.",
           "movement_details": [
-            "Start with a neutral relaxed face.",
-            "The subject slightly shifts her weight from one leg to the other.",
-            "She makes soft eye contact with the camera for less than one second.",
-            "She takes one small natural step forward.",
-            "Her shoulders remain relaxed.",
-            "Her expression stays calm and confident.",
-            "No forced smile at the beginning.",
-            "The movement should feel like a real person naturally approaching the phone."
+            "Start with the subject looking slightly off-camera.",
+            "She slowly turns her head toward the lens.",
+            "Her eyes settle naturally on the camera.",
+            "Her face remains neutral and relaxed.",
+            "A very faint soft smile may appear for a fraction of a second, then fade.",
+            "No dramatic model pose.",
+            "No exaggerated hair flip.",
+            "No unnatural neck movement."
           ],
-          "transition_to_main_sequence": "After the step forward, the subject smoothly begins the fabric-touch clothing presentation."
+          "transition_to_main_sequence": "Once her gaze meets the camera, she naturally adjusts her posture and begins the clothing interaction."
         }
       ]
     },
@@ -325,6 +325,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_01_micro_step_eye_contact"
+    "selected_hook_id": "hook_02_subtle_head_turn_then_focus"
   }
 }

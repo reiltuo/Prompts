@@ -48,7 +48,7 @@
       "hook_variations": [
         {
           "hook_id": "hook_01_micro_step_eye_contact",
-          "name": "Small step forward with natural eye contact",
+          "name": "Passo e olhar",
           "description": "The subject begins at the original distance, makes brief natural eye contact with the camera, then takes one small step forward as if casually starting to show the outfit.",
           "movement_details": [
             "Start with a neutral relaxed face.",
@@ -64,7 +64,7 @@
         },
         {
           "hook_id": "hook_02_subtle_head_turn_then_focus",
-          "name": "Subtle head turn then focus on camera",
+          "name": "Virar e olhar",
           "description": "The subject starts with her head slightly turned away, then gently turns her face toward the camera, creating a natural attention hook before presenting the outfit.",
           "movement_details": [
             "Start with the subject looking slightly off-camera.",
@@ -80,7 +80,7 @@
         },
         {
           "hook_id": "hook_03_soft_fabric_attention",
-          "name": "Soft fabric attention gesture",
+          "name": "Tocar no tecido",
           "description": "The subject immediately creates attention by lightly touching the upper-front area of the outfit that already exists in the image, as if showing fabric texture or fit.",
           "movement_details": [
             "The subject starts still for a fraction of a second.",
@@ -96,7 +96,7 @@
         },
         {
           "hook_id": "hook_04_weight_shift_waist_hand",
-          "name": "Natural weight shift with hand to waist",
+          "name": "Mão na cintura",
           "description": "The subject uses a subtle body-language hook: a small posture adjustment, one hand resting naturally on the waist and a soft shift of the hips.",
           "movement_details": [
             "The subject gently shifts her weight onto one leg.",
@@ -112,7 +112,7 @@
         },
         {
           "hook_id": "hook_05_small_torso_angle_change",
-          "name": "Small torso angle change to show fit",
+          "name": "Virar o corpo",
           "description": "The subject creates attention by slightly rotating her torso, naturally revealing the fit and silhouette of the outfit without posing aggressively.",
           "movement_details": [
             "The subject starts facing the camera.",
@@ -129,7 +129,7 @@
         },
         {
           "hook_id": "hook_06_hair_adjustment_intro",
-          "name": "Casual hair adjustment intro",
+          "name": "Ajustar o cabelo",
           "description": "The subject starts the video with a casual self-adjustment gesture, lightly brushing hair backward near the side of the head before presenting the outfit.",
           "movement_details": [
             "The subject begins with a neutral relaxed expression.",

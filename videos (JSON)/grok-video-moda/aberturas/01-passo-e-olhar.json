@@ -35,7 +35,7 @@
     },
     "hook_system": {
       "purpose": "The first 1 to 2 seconds must create visual attention using only the woman's natural body movement, facial timing and subtle clothing interaction. The hook must feel casual, realistic and human, not like an advertisement pose.",
-      "hook_selection_instruction": "Use only hook_13_hand_enters_frame_naturally. Perform exactly this hook and do not combine it with any other hook.",
+      "hook_selection_instruction": "Use only hook_01_micro_step_eye_contact. Perform exactly this hook and do not combine it with any other hook.",
       "hook_duration": "Approximately 1 to 2 seconds",
       "hook_intensity": "Subtle, natural, attention-catching without exaggeration",
       "hook_restrictions": {
@@ -47,22 +47,20 @@
       },
       "hook_variations": [
         {
-          "hook_id": "hook_13_hand_enters_frame_naturally",
-          "name": "Hand enters frame naturally",
-          "main_effect": "Catches attention through a hand movement that enters the viewer's focus without becoming distracting.",
+          "hook_id": "hook_01_micro_step_eye_contact",
+          "name": "Passo e olhar",
+          "description": "The subject begins at the original distance, makes brief natural eye contact with the camera, then takes one small step forward as if casually starting to show the outfit.",
           "movement_details": [
-            "The subject begins with both hands relaxed.",
-            "One hand naturally rises into the visible frame.",
-            "The hand moves slowly enough to be realistic, but not too slow.",
-            "The fingers are relaxed and anatomically correct.",
-            "The hand lightly hovers near the existing clothing area.",
-            "It briefly touches the fabric, then relaxes.",
-            "The gesture looks like she is about to explain or show the clothing, but without speaking.",
-            "Her face remains neutral with a faint, natural expression change.",
-            "The hand must not cover too much of the outfit.",
-            "The hand must not become the main subject of the video."
+            "Start with a neutral relaxed face.",
+            "The subject slightly shifts her weight from one leg to the other.",
+            "She makes soft eye contact with the camera for less than one second.",
+            "She takes one small natural step forward.",
+            "Her shoulders remain relaxed.",
+            "Her expression stays calm and confident.",
+            "No forced smile at the beginning.",
+            "The movement should feel like a real person naturally approaching the phone."
           ],
-          "transition_to_main_sequence": "After the hand touch, she shifts posture and continues showing the outfit with subtle torso movement."
+          "transition_to_main_sequence": "After the step forward, the subject smoothly begins the fabric-touch clothing presentation."
         }
       ]
     },
@@ -327,6 +325,6 @@
       "Do not create looping poses"
     ],
     "final_result": "A hyper-realistic POV fashion video where the subject feels alive and human. The video begins with one subtle attention hook using only the woman's natural movement, then transitions into a casual clothing presentation with natural facial expression changes, occasional soft smiles, neutral moments in between, subtle head turns, realistic fabric interaction and no alteration or addition of any clothing detail. The final result must be indistinguishable from a real casual phone recording.",
-    "selected_hook_id": "hook_13_hand_enters_frame_naturally"
+    "selected_hook_id": "hook_01_micro_step_eye_contact"
   }
 }
