@@ -1,0 +1,59 @@
+{
+  "full_video_sequence_variations": {
+    "purpose": "Alternative complete movement structures for Grok image-to-video fashion generation using a base image.",
+    "global_rules": {
+      "preserve_identity": true,
+      "preserve_original_outfit": true,
+      "preserve_original_background": true,
+      "preserve_original_lighting": true,
+      "no_talking": true,
+      "no_text": true,
+      "no_zoom": true,
+      "no_added_clothing_details": true,
+      "no_artificial_posing": true,
+      "realism_priority": "Maximum"
+    },
+    "selection_instruction": "Use only sequence_02_hair_adjustment_then_outfit_display. Do not combine it with another sequence.",
+    "selected_sequence_id": "sequence_02_hair_adjustment_then_outfit_display",
+    "variations": [
+      {
+        "variation_id": "sequence_02_hair_adjustment_then_outfit_display",
+        "name": "Hair adjustment then outfit display",
+        "best_for": "More feminine and natural lifestyle-style fashion videos.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.2s",
+            "action": "The subject casually brushes her hair backward near the side of the head. The gesture is quick, soft and realistic."
+          },
+          {
+            "time": "1.2s - 2.2s",
+            "action": "Her hand returns naturally to a relaxed position. Her expression remains neutral, not smiling constantly."
+          },
+          {
+            "time": "2.2s - 3.5s",
+            "action": "She takes one small step forward and subtly adjusts her posture to show the outfit better."
+          },
+          {
+            "time": "3.5s - 4.5s",
+            "action": "She lightly smooths an existing fabric area of the outfit, without changing the garment shape."
+          },
+          {
+            "time": "4.5s - 6.5s",
+            "action": "She gently shifts her hips side to side in a very subtle way while keeping one hand near the waist."
+          },
+          {
+            "time": "6.5s - 8.0s",
+            "action": "She turns her head slightly to one side, gives a short warm smile, then returns to neutral."
+          }
+        ],
+        "expression_behavior": "Neutral during hair adjustment, faint smile during outfit smoothing, then relaxed neutral with a brief final smile.",
+        "forbidden_behavior": [
+          "No exaggerated hair flip",
+          "No beauty filter",
+          "No jewelry addition",
+          "No artificial influencer pose"
+        ]
+      }
+    ]
+  }
+}

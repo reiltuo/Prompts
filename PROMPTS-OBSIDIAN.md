@@ -38,3 +38,8 @@
 - [[videos (JSON)/07-ajustar-cabelo.json|Ajustar cabelo em JSON]]: Aproximação, toque no laço, recuo e ajuste sutil do cabelo.
 - [[videos (JSON)/08-cta-tiktok-shop.json|CTA TikTok Shop em JSON]]: CTA de oito segundos com sorriso, inclinação e indicador apontando para baixo.
 - [[videos (JSON)/manifest.json|Manifesto dos prompts de vídeo em JSON]]: Índice e rastreabilidade da coleção.
+
+
+## Coleção Grok para vídeo de moda
+
+- [[videos (JSON)/grok-video-moda/README|Abrir coleção Grok para vídeo de moda]]

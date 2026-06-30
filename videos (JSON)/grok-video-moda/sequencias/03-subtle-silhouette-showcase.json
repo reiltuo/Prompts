@@ -1,0 +1,63 @@
+{
+  "full_video_sequence_variations": {
+    "purpose": "Alternative complete movement structures for Grok image-to-video fashion generation using a base image.",
+    "global_rules": {
+      "preserve_identity": true,
+      "preserve_original_outfit": true,
+      "preserve_original_background": true,
+      "preserve_original_lighting": true,
+      "no_talking": true,
+      "no_text": true,
+      "no_zoom": true,
+      "no_added_clothing_details": true,
+      "no_artificial_posing": true,
+      "realism_priority": "Maximum"
+    },
+    "selection_instruction": "Use only sequence_03_silhouette_showcase. Do not combine it with another sequence.",
+    "selected_sequence_id": "sequence_03_silhouette_showcase",
+    "variations": [
+      {
+        "variation_id": "sequence_03_silhouette_showcase",
+        "name": "Subtle silhouette showcase",
+        "best_for": "Outfits where the fit, body shape, waistline or overall silhouette matters.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.0s",
+            "action": "The subject begins facing the camera with a calm neutral expression."
+          },
+          {
+            "time": "1.0s - 2.0s",
+            "action": "She gently rotates her torso a few degrees to one side, enough to show the outfit silhouette."
+          },
+          {
+            "time": "2.0s - 3.0s",
+            "action": "One hand naturally rests on the waist while the other remains relaxed."
+          },
+          {
+            "time": "3.0s - 4.2s",
+            "action": "She returns slightly toward the camera and takes one small step forward."
+          },
+          {
+            "time": "4.2s - 5.5s",
+            "action": "She lightly touches or smooths the existing side/front fabric area, preserving the original clothing design."
+          },
+          {
+            "time": "5.5s - 7.0s",
+            "action": "She makes a very subtle hip shift and natural posture adjustment."
+          },
+          {
+            "time": "7.0s - 8.0s",
+            "action": "She looks back at the camera with a brief soft smile, then relaxes her face naturally."
+          }
+        ],
+        "expression_behavior": "Calm and neutral for most of the video, with only one brief soft smile near the end.",
+        "forbidden_behavior": [
+          "No full spin",
+          "No exaggerated waist pose",
+          "No sensualized movement",
+          "No body distortion"
+        ]
+      }
+    ]
+  }
+}

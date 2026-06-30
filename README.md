@@ -61,3 +61,10 @@ Prompts organizados por tipo de uso. Cada item tem uma página visual em `.md` e
 - `videos/`: prompts para animação, apresentação de produto, POV, movimento natural e CTA.
 - `imagens/txt/` e `videos/txt/`: versões cruas para copiar direto.
 - `videos (JSON)/`: versões estruturadas e detalhadas dos 8 prompts de vídeo, com manifesto e documentação próprios.
+
+
+## Coleção Grok para vídeo de moda
+
+Coleção com 18 hooks e 5 sequências completas, separados em JSON pronto para uso com imagem base.
+
+[Abrir coleção Grok](videos%20%28JSON%29/grok-video-moda/README.md)

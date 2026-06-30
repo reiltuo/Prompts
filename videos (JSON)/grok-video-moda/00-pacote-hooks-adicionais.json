@@ -1,0 +1,248 @@
+{
+  "additional_hook_variation_pack": {
+    "purpose": "Provide new realistic attention hooks for a Grok image-to-video fashion generation using a base image of a woman wearing clothing. Each hook must create viewer attention using only natural body movement, facial timing, posture, eye contact and subtle interaction with existing clothing.",
+    "global_hook_rules": {
+      "use_only_one_hook_per_video": true,
+      "hook_duration": "1 to 2 seconds",
+      "style": "Hyper-realistic, casual, human, spontaneous, non-performative",
+      "camera_behavior": "Stable POV phone recording with very subtle handheld micro-movements only",
+      "forbidden": [
+        "No zoom",
+        "No camera shake",
+        "No text",
+        "No subtitles",
+        "No UI",
+        "No transitions",
+        "No added accessories",
+        "No new clothing details",
+        "No dance",
+        "No exaggerated influencer pose",
+        "No constant smiling",
+        "No artificial beauty filter",
+        "No change to the original outfit",
+        "No change to the original face or body"
+      ]
+    },
+    "hook_variations": [
+      {
+        "hook_id": "hook_07_quick_glance_down_then_camera",
+        "name": "Quick glance at outfit then camera",
+        "main_effect": "Creates attention by making the subject briefly acknowledge the outfit before looking back at the viewer.",
+        "movement_details": [
+          "The subject starts in the same position as the base image.",
+          "Her face is neutral and relaxed.",
+          "She briefly glances down toward the front area of the outfit for less than one second.",
+          "Her eyes then return naturally to the camera.",
+          "As her gaze returns, her posture subtly straightens.",
+          "A very small soft smile appears for a brief moment, then fades.",
+          "The movement must feel like she is casually checking the outfit before showing it.",
+          "No dramatic chin movement.",
+          "No exaggerated smile.",
+          "No forced model expression."
+        ],
+        "transition_to_main_sequence": "After looking back at the camera, she calmly takes a small step forward and begins the subtle fabric-touch sequence."
+      },
+      {
+        "hook_id": "hook_08_subtle_shoulder_reset",
+        "name": "Subtle shoulder reset",
+        "main_effect": "Captures attention through a realistic posture adjustment, like a person preparing to show the outfit naturally.",
+        "movement_details": [
+          "The subject starts relaxed, with shoulders slightly natural and not stiff.",
+          "She makes a tiny shoulder reset, as if correcting her posture.",
+          "The movement is symmetrical but not robotic.",
+          "Her chest and upper body rise very subtly with natural breathing.",
+          "One hand may move softly toward the waist or side of the body.",
+          "Her expression remains neutral and calm.",
+          "Her eyes stay near the camera without an intense stare.",
+          "The outfit moves slightly with the posture correction.",
+          "The fabric physics must remain natural and minimal."
+        ],
+        "transition_to_main_sequence": "After the posture reset, she shifts her weight gently and continues into the outfit presentation."
+      },
+      {
+        "hook_id": "hook_09_half_step_with_soft_smile",
+        "name": "Half-step forward with brief soft smile",
+        "main_effect": "Creates a natural approach hook without looking like a runway walk.",
+        "movement_details": [
+          "The subject begins at the original distance from the camera.",
+          "She takes one small half-step forward, not a full walk.",
+          "The step is slow enough to look natural but not sluggish.",
+          "Her arms remain relaxed and move subtly with the body.",
+          "As she steps forward, a short soft smile appears.",
+          "The smile lasts less than one second.",
+          "After the step, her expression returns to neutral.",
+          "The movement must feel like a real person getting closer to show the outfit.",
+          "No exaggerated posing.",
+          "No hip-forward pose.",
+          "No runway-style movement."
+        ],
+        "transition_to_main_sequence": "Once she finishes the half-step, one hand gently touches the existing upper-front fabric area."
+      },
+      {
+        "hook_id": "hook_10_light_sleeve_or_side_adjustment",
+        "name": "Light sleeve or side adjustment",
+        "main_effect": "Uses a realistic clothing-adjustment gesture to catch attention while preserving the original outfit.",
+        "movement_details": [
+          "The subject lightly adjusts an existing clothing area visible in the source image.",
+          "If the outfit has sleeves, she may lightly smooth one sleeve.",
+          "If the outfit has no sleeve, she may lightly smooth the side seam or upper-front fabric area.",
+          "The hand movement is delicate and brief.",
+          "She does not pull the clothing aggressively.",
+          "She does not change the shape, size, color or design of the clothing.",
+          "Her gaze briefly drops toward the hand, then returns to the camera.",
+          "Her face remains calm, with a very subtle expression change.",
+          "The fabric reacts naturally with tiny folds and contact shadows."
+        ],
+        "transition_to_main_sequence": "After the adjustment, her hand relaxes down or moves naturally to the waist before the main body movement."
+      },
+      {
+        "hook_id": "hook_11_small_side_angle_reveal",
+        "name": "Small side-angle reveal",
+        "main_effect": "Shows the fit of the outfit with a slight angle change, creating visual interest without a full turn.",
+        "movement_details": [
+          "The subject starts facing the camera.",
+          "She subtly rotates her torso a few degrees to one side.",
+          "The rotation is small, controlled and casual.",
+          "Her head remains mostly toward the camera.",
+          "Her hips follow naturally but very subtly.",
+          "One hand may rest softly on the waist.",
+          "The outfit remains exactly the same as in the base image.",
+          "The fabric moves naturally with the torso.",
+          "She does not spin.",
+          "She does not create a side-profile pose.",
+          "She does not exaggerate the silhouette."
+        ],
+        "transition_to_main_sequence": "She returns slightly toward the center and begins the main clothing presentation."
+      },
+      {
+        "hook_id": "hook_12_natural_breath_and_eye_contact",
+        "name": "Natural breath and eye contact",
+        "main_effect": "Creates a realistic human presence through small breathing motion and calm eye contact.",
+        "movement_details": [
+          "The subject starts still but not frozen.",
+          "A subtle natural breathing motion is visible in the shoulders and upper torso.",
+          "She makes calm eye contact with the camera.",
+          "Her lips remain softly closed.",
+          "Her face stays neutral, relaxed and human.",
+          "She slightly shifts her weight from one leg to the other.",
+          "The movement is minimal but alive.",
+          "No smile is required at the beginning.",
+          "No dramatic facial expression.",
+          "No robotic stillness."
+        ],
+        "transition_to_main_sequence": "After the brief eye contact, she gently moves one hand toward the outfit and begins the fabric presentation."
+      },
+      {
+        "hook_id": "hook_13_hand_enters_frame_naturally",
+        "name": "Hand enters frame naturally",
+        "main_effect": "Catches attention through a hand movement that enters the viewer's focus without becoming distracting.",
+        "movement_details": [
+          "The subject begins with both hands relaxed.",
+          "One hand naturally rises into the visible frame.",
+          "The hand moves slowly enough to be realistic, but not too slow.",
+          "The fingers are relaxed and anatomically correct.",
+          "The hand lightly hovers near the existing clothing area.",
+          "It briefly touches the fabric, then relaxes.",
+          "The gesture looks like she is about to explain or show the clothing, but without speaking.",
+          "Her face remains neutral with a faint, natural expression change.",
+          "The hand must not cover too much of the outfit.",
+          "The hand must not become the main subject of the video."
+        ],
+        "transition_to_main_sequence": "After the hand touch, she shifts posture and continues showing the outfit with subtle torso movement."
+      },
+      {
+        "hook_id": "hook_14_small_backward_then_forward_motion",
+        "name": "Small backward-then-forward natural motion",
+        "main_effect": "Creates dynamic attention by using a very small natural distance change without zoom or camera movement.",
+        "movement_details": [
+          "The subject begins at the original position.",
+          "She makes a tiny natural lean or half-step backward, as if adjusting her balance.",
+          "Immediately after, she takes a small step forward toward the camera.",
+          "The movement must be smooth and realistic.",
+          "Her body remains balanced.",
+          "Her arms react naturally to the movement.",
+          "Her facial expression stays relaxed.",
+          "A brief soft smile may appear only after she steps forward.",
+          "No bouncing motion.",
+          "No dance-like movement.",
+          "No dramatic entrance."
+        ],
+        "transition_to_main_sequence": "Once she returns forward, she gently touches the existing front fabric area and begins the outfit presentation."
+      },
+      {
+        "hook_id": "hook_15_soft_hair_tuck_then_outfit_touch",
+        "name": "Soft hair tuck then outfit touch",
+        "main_effect": "Combines a realistic self-adjustment with a clothing presentation cue.",
+        "movement_details": [
+          "The subject briefly raises one hand toward the side of the head.",
+          "She softly tucks or brushes hair backward near the ear or side of the face.",
+          "The gesture lasts about one second.",
+          "The hand then naturally moves down toward the outfit.",
+          "She lightly touches the existing upper-front fabric area.",
+          "The transition from hair to fabric must feel casual and unplanned.",
+          "Her expression remains neutral at first.",
+          "A small natural smile may appear during the clothing touch.",
+          "No exaggerated hair flip.",
+          "No beauty-commercial pose.",
+          "No added earrings, jewelry or accessories."
+        ],
+        "transition_to_main_sequence": "After touching the fabric, she releases it and continues with subtle body movement and posture variation."
+      },
+      {
+        "hook_id": "hook_16_camera_awareness_micro_reaction",
+        "name": "Camera-awareness micro reaction",
+        "main_effect": "Makes the subject feel alive by showing a tiny reaction as if she just noticed the camera recording.",
+        "movement_details": [
+          "The subject starts naturally, not fully posed.",
+          "She makes a tiny facial reaction as if becoming aware of the camera.",
+          "The reaction is subtle: a small eye focus change, slight cheek movement or very faint smile.",
+          "She does not look surprised.",
+          "She does not act confused.",
+          "She does not overperform.",
+          "Her posture becomes slightly more presentable in a natural way.",
+          "One hand may settle softly on the waist.",
+          "The movement must feel like a real person preparing to show the outfit casually."
+        ],
+        "transition_to_main_sequence": "After the micro reaction, she takes a small natural step forward and begins the fabric interaction."
+      },
+      {
+        "hook_id": "hook_17_outfit_silhouette_check",
+        "name": "Outfit silhouette check",
+        "main_effect": "Creates attention by showing the subject briefly checking the fit and silhouette of the outfit.",
+        "movement_details": [
+          "The subject gently looks down toward the outfit.",
+          "She subtly smooths the side or front area of the existing clothing.",
+          "The gesture is very light and realistic.",
+          "She slightly adjusts her stance to show the outfit fit.",
+          "One foot may shift a few centimeters forward.",
+          "Her shoulders stay relaxed.",
+          "Her face returns to neutral after the check.",
+          "She looks back at the camera naturally.",
+          "No pulling fabric tight.",
+          "No reshaping the outfit.",
+          "No adding or changing any clothing details."
+        ],
+        "transition_to_main_sequence": "After the silhouette check, she steps back slightly and rotates her torso a few degrees to continue showing the clothing."
+      },
+      {
+        "hook_id": "hook_18_soft_turn_with_neutral_face",
+        "name": "Soft turn with neutral face",
+        "main_effect": "Uses controlled body movement to create visual interest without relying on smiles or exaggerated gestures.",
+        "movement_details": [
+          "The subject begins facing the camera.",
+          "She softly turns her upper body slightly to one side.",
+          "Her head follows the movement very subtly.",
+          "Her face remains neutral and relaxed.",
+          "Her arms stay natural and close to the body.",
+          "The outfit moves slightly with the torso.",
+          "She pauses briefly for a fraction of a second, not frozen.",
+          "She then returns toward the camera angle.",
+          "No full-body spin.",
+          "No dramatic model look.",
+          "No seductive pose."
+        ],
+        "transition_to_main_sequence": "After returning toward the camera, she begins the main fabric-touch and outfit presentation sequence."
+      }
+    ]
+  }
+}

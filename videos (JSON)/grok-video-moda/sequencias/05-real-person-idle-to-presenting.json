@@ -1,0 +1,63 @@
+{
+  "full_video_sequence_variations": {
+    "purpose": "Alternative complete movement structures for Grok image-to-video fashion generation using a base image.",
+    "global_rules": {
+      "preserve_identity": true,
+      "preserve_original_outfit": true,
+      "preserve_original_background": true,
+      "preserve_original_lighting": true,
+      "no_talking": true,
+      "no_text": true,
+      "no_zoom": true,
+      "no_added_clothing_details": true,
+      "no_artificial_posing": true,
+      "realism_priority": "Maximum"
+    },
+    "selection_instruction": "Use only sequence_05_real_person_idle_to_presenting. Do not combine it with another sequence.",
+    "selected_sequence_id": "sequence_05_real_person_idle_to_presenting",
+    "variations": [
+      {
+        "variation_id": "sequence_05_real_person_idle_to_presenting",
+        "name": "Real person idle to presenting",
+        "best_for": "Making AI-generated women look more human and less staged.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.0s",
+            "action": "The subject starts slightly idle, as if she was not perfectly posed. She breathes naturally and shifts weight subtly."
+          },
+          {
+            "time": "1.0s - 2.0s",
+            "action": "She notices the camera naturally and adjusts her posture slightly."
+          },
+          {
+            "time": "2.0s - 3.0s",
+            "action": "She gives a tiny soft smile, then lets it fade."
+          },
+          {
+            "time": "3.0s - 4.2s",
+            "action": "She steps forward once and lightly touches the existing outfit fabric."
+          },
+          {
+            "time": "4.2s - 5.5s",
+            "action": "She releases the fabric and rests one hand naturally on the waist."
+          },
+          {
+            "time": "5.5s - 7.0s",
+            "action": "She makes a small side-to-side body movement, very subtle and casual."
+          },
+          {
+            "time": "7.0s - 8.0s",
+            "action": "She looks slightly to one side, then back toward the camera, ending naturally without freezing."
+          }
+        ],
+        "expression_behavior": "Human and inconsistent in a realistic way: neutral, faint smile, neutral, slight attention shift.",
+        "forbidden_behavior": [
+          "No mannequin stillness",
+          "No perfect loop",
+          "No robotic symmetry",
+          "No unnatural face morphing"
+        ]
+      }
+    ]
+  }
+}
