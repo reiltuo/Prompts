@@ -1,10 +1,10 @@
-# Colagem facial consistente
+# Criar colagem facial
 
 **Categoria:** Imagens
 
 **O que faz:** Cria um conjunto de imagens mantendo a identidade facial travada em diferentes composições.
 
-**TXT para copiar:** [abrir TXT](txt/08-colagem-facial-consistente.txt)
+**TXT para copiar:** [abrir TXT](txt/08-criar-colagem-facial.txt)
 
 ## Prompt
 

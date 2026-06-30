@@ -1,10 +1,10 @@
-# Vídeo CTA para Moda TikTok Shop
+# CTA TikTok Shop
 
 **Categoria:** Vídeos
 
 **O que faz:** Cria vídeo CTA em 9:16 com sorriso, passo para frente e dedo apontando para baixo sem fala.
 
-**TXT para copiar:** [abrir TXT](txt/08-video-cta-moda-tiktok-shop.txt)
+**TXT para copiar:** [abrir TXT](txt/08-cta-tiktok-shop.txt)
 
 ## Prompt
 

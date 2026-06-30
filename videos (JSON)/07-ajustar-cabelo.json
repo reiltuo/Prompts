@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_07_ajustar_cabelo",
+  "title": "Ajustar cabelo",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/07-ajustar-cabelo.txt",
+    "sha256": "3c2d66ba3f85de86a4b9707c36391a2fd8b4e3880798be4b6d33d8d74f228553",
+    "original_language": "en"
+  },
+  "intent": "Animar uma pessoa real apresentando a roupa em vídeo POV, com aproximação em dois passos, toque delicado no laço do peito, retorno à posição inicial, movimentos corporais sutis e um ajuste breve do cabelo.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "garment_detail_required": "laço ou detalhe de amarração visível na região do peito",
+    "preserve_subject_identity": true,
+    "preserve_skin_texture": true,
+    "preserve_hair": true,
+    "preserve_garment": true
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "preservar vertical POV da referência ou configurar 9:16",
+    "visual_style": ["hiper-realista", "gravação casual de celular", "POV", "sem estilização"],
+    "personality": ["simpática", "acessível", "confortável", "confiante"],
+    "audio": "nenhum",
+    "on_screen_graphics": "nenhum"
+  },
+  "camera": {
+    "perspective": "POV, como se o celular fosse segurado por outra pessoa",
+    "height": "entre peito e rosto",
+    "movement": "micromovimentos manuais muito sutis",
+    "stability": "alta, sem tremor perceptível",
+    "prohibited": ["zoom", "shake", "movimento dramático", "reenquadramento abrupto"]
+  },
+  "motion_style": {
+    "qualities": ["natural", "confiante", "fluido", "contínuo", "espontâneo", "casual"],
+    "timing": "ritmo humano real",
+    "prohibited": ["estaticidade", "exagero", "robótica", "congelamento", "loop de poses"]
+  },
+  "action_sequence": [
+    {
+      "order": 1,
+      "action": "iniciar a uma distância natural",
+      "expression": "neutra, relaxada, lábios suavemente fechados e olhar calmo"
+    },
+    {
+      "order": 2,
+      "action": "dar dois passos pequenos em direção à câmera",
+      "execution": "calma, equilibrada e sem pose de passarela"
+    },
+    {
+      "order": 3,
+      "action": "tocar e segurar levemente o laço ou amarração no peito durante a aproximação",
+      "execution": "gesto delicado, curto e funcional, apenas para mostrar o detalhe",
+      "expression": "sorriso breve e sutil com pequeno movimento das bochechas"
+    },
+    {
+      "order": 4,
+      "action": "soltar naturalmente o laço",
+      "expression": "retornar à neutralidade"
+    },
+    {
+      "order": 5,
+      "action": "dar um pequeno passo para trás até a posição original",
+      "execution": "transição suave para a apresentação geral"
+    },
+    {
+      "order": 6,
+      "action": "apresentar a roupa com uma mão na cintura, quadril sutil, um pé à frente e outro relaxado atrás",
+      "execution": "pequena rotação do tronco para mostrar ajuste e tecido, sem pose agressiva"
+    },
+    {
+      "order": 7,
+      "action": "virar levemente a cabeça para um lado e exibir outro sorriso curto e caloroso",
+      "expression": "o sorriso surge e desaparece naturalmente"
+    },
+    {
+      "order": 8,
+      "action": "levantar brevemente uma mão, escovar o cabelo para trás ao lado da cabeça e retornar à posição neutra",
+      "duration": "aproximadamente 1 segundo",
+      "execution": "casual, sem ênfase e semelhante a um autoajuste involuntário"
+    }
+  ],
+  "body_performance": {
+    "posture": "natural, com ombros relaxados",
+    "hips": "movimento lateral muito sutil",
+    "feet": "um à frente e outro relaxado atrás durante a apresentação",
+    "torso": "rotação pequena e plausível",
+    "breathing": "visível apenas como micromovimento natural",
+    "transitions": "suaves entre aproximação, detalhe, recuo, apresentação e cabelo"
+  },
+  "facial_performance": {
+    "constant_smile": false,
+    "baseline": "neutra e relaxada",
+    "smiles": "curtos, suaves, quentes e contextuais",
+    "smile_exit": "desaparecer gradualmente sem congelamento",
+    "avoid": ["sorriso permanente", "grande sorriso forçado", "tensão facial exagerada", "fala ou articulação"]
+  },
+  "physics_and_continuity": {
+    "hair": "movimento leve e natural, especialmente durante o toque",
+    "fabric": "física natural ao caminhar, girar o tronco e tocar o laço",
+    "identity": "feições rigorosamente estáveis",
+    "skin": "textura real preservada, sem filtro de beleza ou suavização",
+    "hands": "anatomicamente corretas e temporalmente consistentes"
+  },
+  "negative_constraints": [
+    "fala", "texto", "interface", "efeitos", "filtro de beleza", "suavização", "estilização",
+    "dança exagerada", "clichê de pose de influenciadora", "passarela", "pose agressiva",
+    "sorriso constante", "expressão congelada", "movimento robótico", "pausa", "loop",
+    "mudança de identidade", "pele plástica", "cabelo inconsistente", "física irreal do tecido"
+  ],
+  "priority_order": ["identidade real", "sequência de aproximação e toque no laço", "expressões alternadas", "movimento contínuo", "ajuste sutil do cabelo", "estética casual POV"]
+}

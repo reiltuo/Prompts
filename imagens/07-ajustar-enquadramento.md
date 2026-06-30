@@ -1,10 +1,10 @@
-# Ajustar enquadramento e zoom
+# Ajustar enquadramento
 
 **Categoria:** Imagens
 
 **O que faz:** Altera proximidade da câmera e enquadramento mantendo identidade, estilo e consistência visual.
 
-**TXT para copiar:** [abrir TXT](txt/07-ajustar-enquadramento-e-zoom.txt)
+**TXT para copiar:** [abrir TXT](txt/07-ajustar-enquadramento.txt)
 
 ## Prompt
 

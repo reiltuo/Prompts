@@ -4,7 +4,7 @@
 
 **O que faz:** Extrai detalhes da roupa, como modelagem, tecido, cor, caimento e pontos visuais importantes.
 
-**TXT para copiar:** [abrir TXT](txt/11-extrair-roupa-em-json.txt)
+**TXT para copiar:** [abrir TXT](txt/11-extrair-roupa-json.txt)
 
 ## Prompt
 

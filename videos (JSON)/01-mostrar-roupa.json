@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_01_mostrar_roupa",
+  "title": "Mostrar roupa",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/01-mostrar-roupa.txt",
+    "sha256": "93070473fd8ed1dea035d3ef30038bbf7901a56bdb51ed41f39dcb0d25b0a40e"
+  },
+  "intent": "Gerar um vídeo vertical hiper-realista de uma influenciadora apresentando uma roupa para TikTok Shop, com ritmo ágil e natural, câmera rigorosamente fixa e cenário totalmente imutável.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "reference_usage": "Usar a imagem como âncora integral para identidade, roupa, cenário, iluminação, perspectiva e enquadramento.",
+    "preserve_subject_identity": true,
+    "preserve_garment": true,
+    "preserve_environment": true
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "visual_style": ["hiper-realista", "orgânico", "conteúdo autêntico de TikTok Shop", "gravação humana"],
+    "audio": "nenhum",
+    "on_screen_graphics": "nenhum"
+  },
+  "camera": {
+    "lock": "absoluto do primeiro ao último frame",
+    "position": "idêntica à imagem de referência",
+    "framing": "rigorosamente constante",
+    "perspective": "inalterada",
+    "prohibited": ["zoom", "pan", "tilt", "tremor", "reenquadramento", "mudança de lente", "mudança de perspectiva"]
+  },
+  "environment": {
+    "state": "100% estático e consistente",
+    "preserve": ["objetos", "fundo", "iluminação", "sombras", "reflexos", "cores", "profundidade", "composição"],
+    "prohibited": ["mover elementos", "remover elementos", "adicionar elementos", "substituir elementos", "alterar posições"]
+  },
+  "subject": {
+    "role": "influenciadora real apresentando uma peça de roupa",
+    "presence": "único elemento autorizado a se mover",
+    "personality": ["confiante", "feminina", "simpática", "espontânea", "elegante"],
+    "posture": "relaxada, leve e natural",
+    "expression": "agradável, viva e autêntica, sem teatralidade",
+    "mouth": "fechada ou em repouso natural, sem articulação de fala"
+  },
+  "performance": {
+    "primary_goal": ["mostrar caimento", "mostrar ajuste no corpo", "evidenciar tecido", "apresentar visual geral", "demonstrar a peça em movimento"],
+    "motion_quality": ["suave", "leve", "humana", "fluida", "relativamente ágil", "envolvente"],
+    "motion_pacing": "dinâmico o suficiente para reter atenção, sem pressa, rigidez ou aceleração artificial",
+    "allowed_body_actions": [
+      "dar um ou dois passos curtos e naturais",
+      "transferir o peso entre as pernas",
+      "girar levemente tronco e quadril",
+      "assumir brevemente um ângulo de três quartos",
+      "virar levemente de lado para mostrar a modelagem",
+      "retornar suavemente à posição frontal",
+      "reposicionar os braços espontaneamente"
+    ],
+    "allowed_garment_actions": [
+      "alisar suavemente a peça",
+      "tocar cintura, barra, lateral ou frente",
+      "ajustar discretamente o tecido",
+      "passar a mão de cima para baixo",
+      "segurar brevemente a peça para mostrar o caimento"
+    ],
+    "optional_natural_actions": [
+      "levar uma mão ao cabelo",
+      "afastar o cabelo do rosto ou ombro",
+      "olhar brevemente para a peça e retornar o olhar à câmera"
+    ]
+  },
+  "biomechanics": {
+    "body": ["respiração sutil", "correções posturais pequenas", "leve balanço corporal", "mudanças discretas no eixo do corpo"],
+    "head_and_shoulders": ["movimentos delicados de cabeça e pescoço", "ombros relaxados", "variações pequenas e naturais"],
+    "arms_and_hands": "movimentos funcionais, rápidos na medida certa, suaves e contínuos",
+    "fingers": "relaxados, anatomicamente corretos e com pequenas variações naturais",
+    "joints": "microajustes realistas em pulsos, dedos, cotovelos e ombros",
+    "transitions": "contínuas e sem saltos entre gestos"
+  },
+  "timeline": [
+    {"phase": "abertura", "relative_time": "0% a 15%", "action": "pose relaxada, expressão agradável e início imediato de micromovimentos"},
+    {"phase": "apresentação", "relative_time": "15% a 75%", "action": "alternar passos curtos, ângulos discretos, transferência de peso e toques delicados na roupa"},
+    {"phase": "fechamento", "relative_time": "75% a 100%", "action": "retornar suavemente a uma posição frontal ou de três quartos, mantendo naturalidade e foco na peça"}
+  ],
+  "continuity": {
+    "identity": "imutável",
+    "anatomy": "estável entre frames",
+    "garment_design_and_fit": "inalterados, exceto reações físicas mínimas ao toque e movimento",
+    "background": "sem qualquer variação",
+    "lighting": "sem oscilação ou flicker"
+  },
+  "negative_constraints": [
+    "fala", "voz", "narração", "som ambiente", "lip sync", "movimento de boca simulando conversa",
+    "legendas", "texto", "ícones", "logos", "marcas d'água", "interface",
+    "movimento robótico", "gesto duro", "corpo travado", "coreografia", "dança", "pose exagerada",
+    "expressão forçada", "olhar vazio", "deformação corporal", "rosto inconsistente", "mãos deformadas", "dedos extras",
+    "mudança de roupa", "mudança de cenário", "mudança de enquadramento", "inconsistência temporal"
+  ],
+  "priority_order": ["realismo humano absoluto", "câmera fixa", "cenário inalterado", "identidade e roupa consistentes", "movimento ágil e natural", "silêncio total"]
+}

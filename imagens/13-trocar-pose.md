@@ -1,10 +1,10 @@
-# Trocar pose mantendo cena
+# Trocar pose
 
 **Categoria:** Imagens
 
 **O que faz:** Troca a pose da pessoa mantendo ambiente, roupa, identidade e estilo da imagem de referência.
 
-**TXT para copiar:** [abrir TXT](txt/13-trocar-pose-mantendo-cena.txt)
+**TXT para copiar:** [abrir TXT](txt/13-trocar-pose.txt)
 
 ## Prompt
 

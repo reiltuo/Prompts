@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_03_cta_baixo",
+  "title": "CTA apontar para baixo",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/03-cta-apontar-para-baixo.txt",
+    "sha256": "097717d15da7ea4fbfa1a5a95c0ea2315595e1ed3f02824cff4ea07b3213d781"
+  },
+  "intent": "Produzir um encerramento visual de TikTok Shop no qual a influenciadora se aproxima suavemente, sorri e aponta de maneira clara e natural para o canto inferior esquerdo da tela.",
+  "fidelity_note": "O nome do arquivo menciona apontar para baixo, mas o corpo do prompt especifica repetidamente o canto inferior esquerdo. A direção inferior esquerda foi preservada como requisito dominante.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "preserve_subject_identity": true,
+    "preserve_garment": true,
+    "preserve_environment": true
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "purpose": "encerramento visual com chamada para ação",
+    "visual_style": ["extremamente realista", "orgânico", "simpático", "convidativo", "TikTok Shop"],
+    "audio": "nenhum",
+    "on_screen_graphics": "nenhum"
+  },
+  "camera": {
+    "lock": "total",
+    "framing": "constante",
+    "perspective": "constante",
+    "prohibited": ["zoom", "pan", "tilt", "tremor", "reenquadramento", "mudança de perspectiva"]
+  },
+  "environment": {
+    "state": "100% idêntico e estático",
+    "preserve": ["todos os objetos", "iluminação", "sombras", "reflexos", "cores", "composição"]
+  },
+  "subject": {
+    "starting_pose": "relaxada, elegante e voltada ao espelho ou câmera",
+    "starting_expression": "suave e natural",
+    "ending_expression": "sorriso leve, bonito, simpático e sem exagero",
+    "eye_behavior": "manter olhar agradável; fazer uma conferência breve na direção apontada se isso reforçar o CTA",
+    "mouth": "sem fala, articulação ou lip sync"
+  },
+  "action_sequence": [
+    {
+      "order": 1,
+      "action": "aproximar-se da câmera",
+      "execution": "movimento lento, delicado, natural e sem pressa",
+      "body_quality": "postura elegante, equilíbrio realista e comportamento espontâneo"
+    },
+    {
+      "order": 2,
+      "action": "formar sorriso",
+      "execution": "abrir um sorriso leve durante a aproximação e mantê-lo de modo vivo, sem congelamento facial"
+    },
+    {
+      "order": 3,
+      "action": "elevar o braço",
+      "execution": "partir da posição relaxada ao lado do corpo e elevar suavemente sem aceleração abrupta"
+    },
+    {
+      "order": 4,
+      "action": "formar gesto de apontar",
+      "execution": "dobrar o cotovelo naturalmente, trazer a mão à frente, rotacionar sutilmente o pulso e direcionar a mão ao canto inferior esquerdo"
+    },
+    {
+      "order": 5,
+      "action": "estender o indicador",
+      "execution": "indicador claramente visível; demais dedos curvados e relaxados; braço com curvatura natural"
+    },
+    {
+      "order": 6,
+      "action": "sustentar o CTA",
+      "execution": "manter o apontar por um breve momento com microajustes naturais no pulso, dedos e direção"
+    }
+  ],
+  "gesture_precision": {
+    "target": "canto inferior esquerdo da tela",
+    "readability": "imediatamente compreensível sem texto",
+    "indicator_motion": "pequena descida ou inclinação sutil permitida para reforçar a direção",
+    "hand_depth": "pode aproximar-se moderadamente do enquadramento sem exagero de perspectiva",
+    "arm": "nunca totalmente esticado ou rígido",
+    "fingers": "anatômicos, relaxados e sem deformação",
+    "wrist": "alinhamento plausível, sem dobra excessiva"
+  },
+  "biomechanics": {
+    "micro_motion": ["respiração sutil", "correções posturais", "movimento leve de ombros", "movimento delicado de cabeça e tronco"],
+    "transitions": "a aproximação, o sorriso e o gesto devem constituir uma sequência contínua e humana",
+    "weight_and_balance": "coerentes durante a aproximação e a parada"
+  },
+  "timeline": [
+    {"phase": "preparação", "relative_time": "0% a 15%", "action": "postura relaxada e atenção à câmera"},
+    {"phase": "aproximação e sorriso", "relative_time": "15% a 50%", "action": "aproximar-se suavemente enquanto o sorriso surge"},
+    {"phase": "formação do CTA", "relative_time": "50% a 78%", "action": "elevar braço, dobrar cotovelo, alinhar pulso e estender indicador"},
+    {"phase": "sustentação", "relative_time": "78% a 100%", "action": "apontar para o canto inferior esquerdo com microajustes naturais"}
+  ],
+  "negative_constraints": [
+    "fala", "voz", "narração", "qualquer áudio", "lip sync", "movimento labial de conversa",
+    "legenda", "texto", "ícone", "logo", "interface", "elemento gráfico",
+    "gesto duro", "mão travada", "movimento robótico", "aceleração artificial", "atuação teatral",
+    "dedos extras", "dedos deformados", "perspectiva exagerada da mão", "braço rígido",
+    "mudança de identidade", "mudança da roupa", "mudança do cenário", "movimento de câmera"
+  ],
+  "priority_order": ["direção inferior esquerda legível", "naturalidade da mão", "sorriso humano", "aproximação suave", "câmera e cenário imutáveis", "silêncio total"]
+}

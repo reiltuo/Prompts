@@ -1,10 +1,10 @@
-# Vídeo de influenciadora mostrando roupa
+# Mostrar roupa
 
 **Categoria:** Vídeos
 
 **O que faz:** Cria um vídeo realista de influenciadora mostrando roupa com câmera fixa, movimentos naturais e sem fala.
 
-**TXT para copiar:** [abrir TXT](txt/01-video-influenciadora-mostrando-roupa.txt)
+**TXT para copiar:** [abrir TXT](txt/01-mostrar-roupa.txt)
 
 ## Prompt
 

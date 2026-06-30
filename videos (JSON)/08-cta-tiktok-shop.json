@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_08_cta_tiktok",
+  "title": "CTA TikTok Shop",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/08-cta-tiktok-shop.txt",
+    "sha256": "a18a4411279bfb05a4c161da339389111dd739659f6499bc9436d9daf3756073",
+    "original_format": "JSON compacto",
+    "original_version": "3.1"
+  },
+  "intent": "Criar um CTA visual de oito segundos no qual a pessoa dá um passo à frente, inclina-se em direção à câmera, sorri e aponta repetidamente para a parte inferior da tela, preservando rigorosamente identidade e cabelo.",
+  "generation_control": {
+    "version": "3.1-remodeled",
+    "seed": 12345,
+    "determinism": "usar a seed quando a plataforma oferecer suporte",
+    "reference_image_required": true
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "duration_seconds": 8,
+    "frame_rate_fps": 24,
+    "shutter": "1/120",
+    "visual_style": ["realismo cinematográfico natural", "interação direta com a câmera", "gravação em celular", "CTA de venda"]
+  },
+  "subject_reference": {
+    "anchor": "imagem enviada",
+    "identity_lock": "máximo",
+    "preserve": ["feições", "tom de pele", "cor do cabelo", "textura do cabelo", "volume do cabelo", "comprimento do cabelo"],
+    "hair_consistency": "idêntico durante todo o vídeo, sem alteração de cor, brilho, forma, textura, estilo, volume ou comprimento"
+  },
+  "scene": {
+    "location": "ambiente interno residencial",
+    "visible_elements": ["moldura de madeira", "fundo residencial"],
+    "background": "levemente desfocado",
+    "depth": "sensação realista de profundidade, sem distorção de mãos"
+  },
+  "camera": {
+    "movement": "dolly-in sutil acompanhando o passo para frente",
+    "lens_equivalent_mm": 50,
+    "focus": "contínuo no rosto",
+    "depth_of_field": "rasa, mantendo o fundo levemente desfocado",
+    "perspective_rule": "preservar proporções naturais do rosto, corpo, mão e dedo"
+  },
+  "lighting": {
+    "key": "luz quente lateral suave",
+    "fill": "leve preenchimento frontal",
+    "stability": "constante durante todo o vídeo",
+    "color_temperature": "sem variação",
+    "hair_color_protection": "a iluminação não pode aparentar mudança de cor do cabelo"
+  },
+  "action_sequence": [
+    {
+      "order": 1,
+      "action": "dar um passo natural para frente",
+      "camera_response": "dolly-in sutil e sincronizado"
+    },
+    {
+      "order": 2,
+      "action": "inclinar o tronco em direção à câmera",
+      "angle_degrees": {"minimum": 30, "maximum": 40},
+      "execution": "movimento equilibrado e confiante"
+    },
+    {
+      "order": 3,
+      "action": "manter contato visual",
+      "execution": "olhar constante, direto e vendedor"
+    },
+    {
+      "order": 4,
+      "action": "manter sorriso",
+      "execution": "natural, cativante, envolvente e confiante do início ao fim"
+    },
+    {
+      "order": 5,
+      "action": "levantar a mão direita e estender o indicador",
+      "execution": "dedo claramente apontado para a direção inferior da tela, nunca para a lente"
+    },
+    {
+      "order": 6,
+      "action": "repetir pequeno movimento vertical com o indicador",
+      "execution": "movimento leve de cima para baixo, intencional e expressivo, funcionando como chamada visual para ação"
+    }
+  ],
+  "gesture_precision": {
+    "hand": "direita",
+    "target": "parte inferior da tela",
+    "forbidden_target": "lente da câmera",
+    "indicator_visibility": "clara durante a chamada",
+    "other_fingers": "relaxados e anatomicamente plausíveis",
+    "wrist": "alinhado naturalmente",
+    "repeat_motion": "pequeno, legível e sem parecer robótico"
+  },
+  "audio_and_speech": {
+    "speech": false,
+    "vocal_audio": false,
+    "lip_articulation": false,
+    "mouth_behavior": "sorriso natural sem formar palavras"
+  },
+  "continuity": {
+    "identity": "constante",
+    "hair": "constante",
+    "lighting": "constante",
+    "anatomy": "constante",
+    "temporal_quality": "sem flicker, morphing ou artefatos de IA"
+  },
+  "safety": {
+    "allow_minor_violence": false,
+    "allow_nudity": false
+  },
+  "negative_constraints": [
+    "fala", "áudio vocal", "articulação de palavras", "legenda", "texto na tela", "logo", "marca d'água",
+    "deformação corporal", "dedos extras", "distorção das mãos", "artefato de IA",
+    "mudança de cor do cabelo", "mudança de textura do cabelo", "mudança de estilo do cabelo", "mudança de volume ou comprimento",
+    "variação de iluminação", "mudança de temperatura de cor", "indicador apontando para a lente"
+  ],
+  "priority_order": ["identidade e cabelo imutáveis", "CTA apontando para baixo", "sorriso vendedor", "passo e inclinação naturais", "dolly-in sutil", "silêncio e ausência de texto"]
+}

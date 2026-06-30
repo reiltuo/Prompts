@@ -4,7 +4,7 @@
 
 **O que faz:** Analisa uma imagem de referência e gera uma descrição estruturada em JSON com alta fidelidade visual.
 
-**TXT para copiar:** [abrir TXT](txt/02-analisar-imagem-em-json.txt)
+**TXT para copiar:** [abrir TXT](txt/02-analisar-imagem-json.txt)
 
 ## Prompt
 

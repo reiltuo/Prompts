@@ -1,10 +1,10 @@
-# Upscale fiel da imagem
+# Melhorar imagem
 
 **Categoria:** Imagens
 
 **O que faz:** Cria uma versão mais nítida e detalhada da mesma imagem, sem mudar cena, identidade ou composição.
 
-**TXT para copiar:** [abrir TXT](txt/03-upscale-fiel-da-imagem.txt)
+**TXT para copiar:** [abrir TXT](txt/03-melhorar-imagem.txt)
 
 ## Prompt
 

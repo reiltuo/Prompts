@@ -1,10 +1,10 @@
-# Imagem com modelo, ambiente e roupa
+# Criar modelo e look
 
 **Categoria:** Imagens
 
 **O que faz:** Combina ambiente, pose, identidade do avatar e roupa para criar uma imagem realista de moda.
 
-**TXT para copiar:** [abrir TXT](txt/01-imagem-modelo-ambiente-roupa.txt)
+**TXT para copiar:** [abrir TXT](txt/01-criar-modelo-e-look.txt)
 
 ## Prompt
 

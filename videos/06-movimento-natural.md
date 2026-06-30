@@ -1,10 +1,10 @@
-# Vídeo com movimento natural de moda
+# Movimento natural
 
 **Categoria:** Vídeos
 
 **O que faz:** Anima uma modelo com movimento contínuo, natural e levemente rápido, sem giro e sem congelar.
 
-**TXT para copiar:** [abrir TXT](txt/06-video-movimento-natural-de-moda.txt)
+**TXT para copiar:** [abrir TXT](txt/06-movimento-natural.txt)
 
 ## Prompt
 

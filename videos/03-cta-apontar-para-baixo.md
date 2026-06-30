@@ -1,10 +1,10 @@
-# Vídeo CTA apontando para baixo
+# CTA apontar para baixo
 
 **Categoria:** Vídeos
 
 **O que faz:** Cria um encerramento visual com sorriso natural e gesto de chamada para ação apontando para baixo.
 
-**TXT para copiar:** [abrir TXT](txt/03-video-cta-apontando-para-baixo.txt)
+**TXT para copiar:** [abrir TXT](txt/03-cta-apontar-para-baixo.txt)
 
 ## Prompt
 

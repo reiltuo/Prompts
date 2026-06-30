@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_05_mao_no_tecido",
+  "title": "Mão tocar no tecido",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/05-mao-tocar-no-tecido.txt",
+    "sha256": "a3c828f84fd3de4a71a9067ba7587c174efe9922431b5d2167012ca9afa1095d",
+    "original_language": "en"
+  },
+  "intent": "Gerar uma demonstração tátil realista de uma roupa sobre uma cama, com uma mão feminina tocando, deslizando e alisando o tecido de forma conversacional, preservando a posição geral e a identidade visual do produto.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "reference_usage": "Preservar a cama, o lençol branco levemente amassado, o produto, a luz, as cores, a perspectiva e o enquadramento.",
+    "expected_scene": "peça de roupa centralizada sobre uma cama"
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "duration_seconds": {"minimum": 8, "maximum": 12},
+    "visual_style": ["gravação doméstica autêntica", "smartphone", "TikTok Shop", "luz natural", "apresentação casual"],
+    "audio": "não necessário"
+  },
+  "camera": {
+    "behavior": "quase estática",
+    "allowed_motion": "micromovimentos muito sutis de câmera de smartphone segurada à mão",
+    "prohibited": ["zoom dramático", "tremor forte", "reenquadramento perceptível", "corte", "transição", "mudança de cena"]
+  },
+  "scene_lock": {
+    "preserve": ["cama", "lençol", "iluminação", "enquadramento", "perspectiva", "posição geral do produto"],
+    "environment_change": "nenhuma",
+    "product_motion_policy": "a peça permanece essencialmente no lugar; só pode reagir localmente ao contato físico"
+  },
+  "hand": {
+    "gender_presentation": "feminina",
+    "entry_point": "borda inferior direita",
+    "spatial_bias": "metade direita do quadro",
+    "center_rule": "pode avançar para interagir, mas não deve dominar o centro nem cobrir completamente o produto",
+    "skin_tone": "morena brasileira, tom castanho-claro ou bronzeado médio quente",
+    "skin_texture": "natural e detalhada",
+    "nails": "bem cuidados, curtos a médios, com esmalte nude claro ou transparente",
+    "jewelry": ["anéis delicados", "pulseira fina"],
+    "contact_permission": "contato físico natural e convincente permitido"
+  },
+  "interaction_style": {
+    "cadence": "moderadamente rápida, expressiva e conversacional, com pausas breves",
+    "force": "gentil, confiante e suficiente para revelar textura e maciez",
+    "goal": ["demonstrar textura", "mostrar maciez", "evidenciar qualidade do material", "organizar visualmente a peça"],
+    "avoid": ["gesto lento e flutuante", "robótica", "movimento excessivamente elegante", "força agressiva", "ação caótica"]
+  },
+  "action_sequence": [
+    {"order": 1, "action": "entrar naturalmente pela borda inferior direita"},
+    {"order": 2, "action": "aproximar-se e apoiar levemente as pontas dos dedos em uma lateral da peça"},
+    {"order": 3, "action": "deslizar suavemente os dedos pela superfície para demonstrar a textura"},
+    {"order": 4, "action": "abrir um pouco a mão e passar sobre uma área maior, alisando o tecido"},
+    {"order": 5, "action": "deslizar palma e dedos com pressão mínima, revelando contato, textura e maciez"},
+    {"order": 6, "action": "realizar uma ou duas varreduras lentas a moderadas entre áreas diferentes"},
+    {"order": 7, "action": "traçar com as pontas dos dedos uma área relevante, como centro, borda, cós, manga, barra ou estampa visível"},
+    {"order": 8, "action": "opcionalmente pinçar ou levantar uma borda muito pequena por um instante, somente se plausível"},
+    {"order": 9, "action": "soltar qualquer tensão e fazer um último alisamento suave"},
+    {"order": 10, "action": "terminar com a mão apoiada brevemente sobre ou ao lado da roupa, ou recuar ao canto inferior direito"}
+  ],
+  "fabric_physics": {
+    "contact_response": ["pequenas rugas sob os dedos", "compressão discreta", "deslocamento local leve", "dobras suaves", "sombras de contato naturais"],
+    "after_contact": "retorno sutil ao repouso, respeitando massa, atrito e elasticidade do material",
+    "global_position": "não deslizar pela cama de forma perceptível ou antinatural",
+    "deformation_limit": "somente alterações pequenas e causadas diretamente pelo toque",
+    "collision": "dedos e palma não atravessam o tecido"
+  },
+  "composition": {
+    "primary_subject": "produto centralizado",
+    "secondary_subject": "mão majoritariamente à direita",
+    "attention_flow": "gestos conduzem o olhar às propriedades da peça",
+    "occlusion": "permitida apenas de modo parcial, breve e funcional",
+    "hand_scale": "realista e subordinada ao produto"
+  },
+  "biomechanics": {
+    "finger_count": "correto e constante",
+    "finger_contact": "cada dedo reage de modo plausível à superfície",
+    "wrist_motion": "natural e dentro do alcance anatômico",
+    "contact_shadows": "coerentes com a luz da referência",
+    "temporal_consistency": "sem morphing, flicker ou descontinuidade"
+  },
+  "negative_constraints": [
+    "rosto", "corpo inteiro", "texto", "legenda", "interface do TikTok", "botão de reprodução", "marca d'água", "logo",
+    "corte", "transição", "zoom dramático", "tremor forte", "mudança de cena",
+    "produto deslizando", "deformação excessiva", "tecido com física irreal", "mão dominando o centro",
+    "dedos extras", "dedos deformados", "pulso antinatural", "gesto robótico", "luz oscilante",
+    "mudança de cor", "mudança do fundo", "mudança da cama", "mudança do lençol", "mudança de enquadramento"
+  ],
+  "priority_order": ["interação tátil convincente", "física realista do tecido", "produto essencialmente no lugar", "mão majoritariamente à direita", "cena fiel", "anatomia correta"]
+}

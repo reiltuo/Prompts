@@ -1,10 +1,10 @@
-# POV com mão tocando o tecido
+# Mão tocar no tecido
 
 **Categoria:** Vídeos
 
 **O que faz:** Cria vídeo POV com mão feminina tocando, alisando e mostrando textura do tecido.
 
-**TXT para copiar:** [abrir TXT](txt/05-pov-mao-tocando-o-tecido.txt)
+**TXT para copiar:** [abrir TXT](txt/05-mao-tocar-no-tecido.txt)
 
 ## Prompt
 

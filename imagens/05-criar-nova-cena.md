@@ -1,10 +1,10 @@
-# Nova cena com a mesma modelo
+# Criar nova cena
 
 **Categoria:** Imagens
 
 **O que faz:** Mantém a identidade da modelo e cria uma nova cena com outro contexto e enquadramento mais próximo.
 
-**TXT para copiar:** [abrir TXT](txt/05-nova-cena-com-mesma-modelo.txt)
+**TXT para copiar:** [abrir TXT](txt/05-criar-nova-cena.txt)
 
 ## Prompt
 

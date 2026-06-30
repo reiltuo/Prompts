@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_02_aproximar_camera",
+  "title": "Aproximar da câmera",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/02-aproximar-da-camera.txt",
+    "sha256": "a61149d6cb00d8e80fa61af88532bce68e2e6d3593e85f431671624f3b652766"
+  },
+  "intent": "Criar uma demonstração visual silenciosa em que a influenciadora se aproxima do espelho ou câmera e depois recua, mostrando os detalhes e o caimento da roupa sem qualquer movimento de câmera ou alteração do ambiente.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "reference_usage": "Tratar a referência como estado visual imutável para câmera, cenário, iluminação, identidade e produto.",
+    "preserve_subject_identity": true,
+    "preserve_garment": true,
+    "preserve_environment": true
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "visual_style": ["extremamente realista", "espontâneo", "orgânico", "TikTok Shop"],
+    "audio": "nenhum",
+    "on_screen_graphics": "nenhum"
+  },
+  "camera": {
+    "setup": "câmera frontal apoiada em superfície, não visível e não segurada pela influenciadora",
+    "lock": "total",
+    "framing": "constante",
+    "perspective": "constante",
+    "prohibited": ["zoom", "pan", "tilt", "tremor", "reenquadramento", "mudança de perspectiva"]
+  },
+  "environment": {
+    "state": "100% idêntico e estático durante todo o vídeo",
+    "preserve": ["elementos visuais", "posição dos objetos", "iluminação", "sombras", "reflexos", "profundidade", "proporções", "composição"],
+    "prohibited": ["adicionar", "remover", "mover", "trocar", "modificar"]
+  },
+  "subject": {
+    "role": "criadora de conteúdo real demonstrando uma roupa",
+    "movement_authorization": "somente a influenciadora pode se mover",
+    "expression": "suave, humana, espontânea e confortável",
+    "posture": "casual, elegante e equilibrada",
+    "identity": "rigorosamente preservada",
+    "mouth": "sem articulação de palavras ou aparência de conversa"
+  },
+  "action_sequence": [
+    {
+      "order": 1,
+      "action": "aproximação",
+      "details": "caminhar lentamente em direção ao espelho ou câmera com passos pequenos, naturais e proporcionais",
+      "purpose": "mostrar melhor os detalhes da peça",
+      "quality": ["peso corporal coerente", "equilíbrio realista", "sem pressa", "transições delicadas"]
+    },
+    {
+      "order": 2,
+      "action": "recuo",
+      "details": "voltar suavemente para trás com controle e fluidez",
+      "quality": ["sem movimentos bruscos", "passos estáveis", "trajetória natural"]
+    },
+    {
+      "order": 3,
+      "action": "apresentação angular",
+      "details": "permanecer levemente de lado e alternar ângulos corporais sutis para mostrar o caimento",
+      "quality": ["casual", "elegante", "sem teatralidade"]
+    }
+  ],
+  "supporting_gestures": [
+    "passar levemente a mão no cabelo",
+    "tocar a roupa com delicadeza",
+    "alisar o tecido",
+    "ajustar discretamente uma parte da peça",
+    "reposicionar os braços",
+    "transferir o peso entre as pernas",
+    "inclinar levemente os ombros",
+    "fazer pequenas correções de postura"
+  ],
+  "biomechanics": {
+    "whole_body": "movimentos humanos, suaves, fluidos e com inércia coerente",
+    "micro_motion": ["respiração", "cabeça", "ombros", "braços", "mãos", "tronco", "pausas orgânicas curtas"],
+    "hands_and_fingers": "anatômicos, flexíveis, com pequenas imperfeições naturais e sem rigidez",
+    "hair": "reação suave e coerente ao deslocamento do corpo",
+    "fabric": "reação discreta e fisicamente plausível ao movimento e ao toque",
+    "transitions": "contínuas, sem teletransporte ou mudança abrupta de pose"
+  },
+  "timeline": [
+    {"phase": "partida", "relative_time": "0% a 10%", "action": "estabelecer postura natural e iniciar a caminhada"},
+    {"phase": "aproximação", "relative_time": "10% a 40%", "action": "avançar com passos curtos e apresentar detalhes da roupa"},
+    {"phase": "recuo", "relative_time": "40% a 65%", "action": "retornar suavemente ao ponto anterior"},
+    {"phase": "ângulos finais", "relative_time": "65% a 100%", "action": "alternar postura frontal e lateral com gestos delicados na roupa ou cabelo"}
+  ],
+  "continuity": {
+    "identity": "constante",
+    "garment": "design, cor, material e caimento preservados",
+    "environment": "sem alteração",
+    "camera": "sem alteração",
+    "lighting": "estável, sem flicker"
+  },
+  "negative_constraints": [
+    "fala", "voz", "narração", "áudio falado", "lip sync", "expressão de conversa",
+    "legendas", "texto", "ícones", "logos", "interface", "elementos gráficos",
+    "movimento robótico", "mecânico", "duro", "artificial", "acelerado", "coreografado",
+    "pose caricata", "atuação artificial", "deformação corporal", "mãos ou dedos defeituosos",
+    "mudança de identidade", "mudança da peça", "mudança do ambiente"
+  ],
+  "priority_order": ["câmera fixa", "cenário imutável", "movimento humano", "trajetória de aproximação e recuo", "produto consistente", "silêncio total"]
+}

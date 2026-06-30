@@ -1,10 +1,10 @@
-# Extrair pose da imagem
+# Extrair pose
 
 **Categoria:** Imagens
 
 **O que faz:** Extrai pose, linguagem corporal e composição para reutilizar como referência.
 
-**TXT para copiar:** [abrir TXT](txt/10-extrair-pose-da-imagem.txt)
+**TXT para copiar:** [abrir TXT](txt/10-extrair-pose.txt)
 
 ## Prompt
 

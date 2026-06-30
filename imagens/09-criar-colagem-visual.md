@@ -1,10 +1,10 @@
-# Colagem de referências visuais
+# Criar colagem visual
 
 **Categoria:** Imagens
 
 **O que faz:** Gera uma colagem de referências para manter consistência de pessoa, roupa, ambiente e estilo.
 
-**TXT para copiar:** [abrir TXT](txt/09-colagem-de-referencias-visuais.txt)
+**TXT para copiar:** [abrir TXT](txt/09-criar-colagem-visual.txt)
 
 ## Prompt
 

@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_04_mao_sem_toque",
+  "title": "Mão gesticular sem tocar",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/04-mao-gesticular-sem-tocar.txt",
+    "sha256": "ac20d486a921b5f158091ef0b10292a842a7ebab169f3d41f17bf7de537d357c",
+    "original_language": "en"
+  },
+  "intent": "Animar uma mão feminina apresentando uma roupa sobre uma cama, com gestos conversacionais moderadamente rápidos, sem tocar ou mover o produto e sem desviar o foco do centro.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "reference_usage": "Preservar exatamente a cama, o lençol branco levemente amassado, a posição do produto, a luz, as cores, a perspectiva e o enquadramento.",
+    "expected_scene": "peça de roupa centralizada sobre cama doméstica"
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "duration_seconds": {"minimum": 8, "maximum": 12},
+    "visual_style": ["gravação doméstica real", "smartphone", "TikTok Shop", "luz natural", "casual"],
+    "audio": "não especificado como necessário; não adicionar elementos narrativos ou interface"
+  },
+  "camera": {
+    "behavior": "quase estática",
+    "allowed_motion": "somente micromovimentos muito sutis de smartphone segurado à mão",
+    "motion_amplitude": "mínima, sem prejudicar a leitura do produto",
+    "prohibited": ["zoom dramático", "tremor forte", "mudança de cena", "corte", "transição"]
+  },
+  "scene_lock": {
+    "preserve": ["cama", "lençol", "produto", "posição do produto", "iluminação", "cores", "perspectiva", "enquadramento"],
+    "product_state": "completamente imóvel do primeiro ao último frame",
+    "product_prohibited_actions": ["tocar", "puxar", "levantar", "arrastar", "amassar", "deformar", "alterar"]
+  },
+  "hand": {
+    "gender_presentation": "feminina",
+    "entry_point": "borda inferior direita",
+    "spatial_bias": "metade direita do quadro",
+    "center_rule": "pode avançar um pouco para dentro, mas nunca dominar o centro ou cobrir a peça",
+    "skin_tone": "morena brasileira, tom castanho-claro ou bronzeado médio quente, ligeiramente escuro",
+    "skin_texture": "natural, com detalhes realistas e sem suavização plástica",
+    "nails": "bem cuidados, curtos a médios, com esmalte nude claro ou transparente",
+    "jewelry": ["anéis delicados", "pulseira fina"],
+    "jewelry_style": "sutil e realista",
+    "contact_permission": "proibido tocar a roupa em qualquer momento"
+  },
+  "gesture_style": {
+    "cadence": "moderadamente rápida, conversacional e espontânea",
+    "qualities": ["dinâmica", "humana", "casual", "expressiva", "não coreografada"],
+    "avoid": ["movimento lento e flutuante", "elegância excessivamente encenada", "rigidez", "robótica"]
+  },
+  "action_sequence": [
+    {"order": 1, "action": "entrar naturalmente pela borda inferior direita"},
+    {"order": 2, "action": "fazer gestos curtos de apresentação ao lado da peça"},
+    {"order": 3, "action": "usar palma aberta em gesto de atenção direcionado à roupa"},
+    {"order": 4, "action": "apontar brevemente para diferentes áreas do produto sem contato"},
+    {"order": 5, "action": "mover-se lateralmente em pequenos gestos conversacionais, mantendo viés à direita"},
+    {"order": 6, "action": "fazer pequenos gestos de ênfase acima ou ao lado da peça sem atravessar excessivamente o centro"},
+    {"order": 7, "action": "inserir pausas de frações de segundo e retomar naturalmente"},
+    {"order": 8, "action": "terminar perto da lateral direita ou recuar levemente para o canto inferior direito"}
+  ],
+  "composition": {
+    "primary_subject": "produto de roupa centralizado",
+    "secondary_subject": "mão na lateral direita",
+    "attention_flow": "a mão deve guiar o olhar para o produto",
+    "occlusion": "não cobrir o centro da roupa",
+    "hand_scale": "realista e subordinada ao produto"
+  },
+  "biomechanics": {
+    "finger_count": "anatomicamente correto e constante",
+    "finger_motion": "articulado, relaxado e coerente",
+    "wrist_motion": "natural, sem torção impossível",
+    "motion_blur": "sutil e compatível com a velocidade dos gestos",
+    "frame_consistency": "sem morphing, flicker ou desaparecimento parcial"
+  },
+  "negative_constraints": [
+    "rosto", "corpo inteiro", "texto", "legenda", "interface do TikTok", "botão de reprodução", "marca d'água", "logo",
+    "corte", "transição", "zoom dramático", "tremor forte", "mudança de cena",
+    "contato com o produto", "movimento do produto", "produto deformado", "mão centralizada", "mão cobrindo a peça",
+    "dedos extras", "dedos deformados", "pulso antinatural", "gesto robótico", "luz oscilante",
+    "mudança de cor", "mudança do fundo", "mudança da cama", "mudança do lençol", "mudança de enquadramento"
+  ],
+  "priority_order": ["produto imóvel e central", "zero contato", "mão majoritariamente à direita", "gestos humanos e conversacionais", "cena fiel", "anatomia correta"]
+}

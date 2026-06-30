@@ -1,10 +1,10 @@
-# Recriar cenário brasileiro simples
+# Recriar cenário
 
 **Categoria:** Imagens
 
 **O que faz:** Reinterpreta o ambiente como casa brasileira simples de baixa renda e retorna uma especificação em JSON.
 
-**TXT para copiar:** [abrir TXT](txt/04-recriar-cenario-brasileiro-simples.txt)
+**TXT para copiar:** [abrir TXT](txt/04-recriar-cenario.txt)
 
 ## Prompt
 

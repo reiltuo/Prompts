@@ -1,10 +1,10 @@
-# Vídeo mexendo no cabelo
+# Ajustar cabelo
 
 **Categoria:** Vídeos
 
 **O que faz:** Cria vídeo POV de moda com passos curtos, toque na roupa, ajuste no cabelo e expressões humanas naturais.
 
-**TXT para copiar:** [abrir TXT](txt/07-video-mexendo-no-cabelo.txt)
+**TXT para copiar:** [abrir TXT](txt/07-ajustar-cabelo.txt)
 
 ## Prompt
 

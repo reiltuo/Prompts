@@ -1,10 +1,10 @@
-# Criar cena com JSON de referência
+# Criar cena com JSON
 
 **Categoria:** Imagens
 
 **O que faz:** Gera uma nova composição com a mesma modelo usando uma referência de cenário em JSON.
 
-**TXT para copiar:** [abrir TXT](txt/06-criar-cena-com-json-de-referencia.txt)
+**TXT para copiar:** [abrir TXT](txt/06-criar-cena-com-json.txt)
 
 ## Prompt
 

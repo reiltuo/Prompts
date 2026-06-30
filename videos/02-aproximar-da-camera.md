@@ -1,10 +1,10 @@
-# Vídeo aproximando da câmera
+# Aproximar da câmera
 
 **Categoria:** Vídeos
 
 **O que faz:** Cria um vídeo em que a influenciadora se aproxima da câmera mantendo cenário, roupa e enquadramento estáveis.
 
-**TXT para copiar:** [abrir TXT](txt/02-video-aproximando-da-camera.txt)
+**TXT para copiar:** [abrir TXT](txt/02-aproximar-da-camera.txt)
 
 ## Prompt
 

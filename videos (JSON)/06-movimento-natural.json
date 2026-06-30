@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "video_06_movimento_natural",
+  "title": "Movimento natural",
+  "language": "pt-BR",
+  "source": {
+    "repository": "https://github.com/reiltuo/Prompts",
+    "commit": "0badf568f899ea140b4d3470317414c3be0c38e4",
+    "path": "videos/txt/06-movimento-natural.txt",
+    "sha256": "b32e5c402ec132fbb56c1a9b4867cc5f11f2f9fa258865df04b80a4a701c846d",
+    "original_format": "JSON compacto"
+  },
+  "intent": "Manter a pessoa em movimento natural e contínuo enquanto apresenta a roupa perto do mesmo ponto, sem pausas, congelamentos, giros ou deslocamentos grandes.",
+  "input_requirements": {
+    "reference_image_required": true,
+    "preserve_subject_identity": true,
+    "preserve_garment": true,
+    "preserve_scene": true
+  },
+  "output": {
+    "media_type": "video",
+    "aspect_ratio": "preservar proporção vertical da referência ou configurar 9:16",
+    "animation_style": "apresentação de moda realista",
+    "visual_quality": "humana, contínua e sem exagero"
+  },
+  "camera": {
+    "fixed": true,
+    "framing": "inalterado",
+    "perspective": "inalterada",
+    "prohibited": ["zoom", "pan", "tilt", "reenquadramento", "mudança de lente", "movimento de câmera"]
+  },
+  "spatial_behavior": {
+    "starting_orientation": "de frente para a câmera",
+    "stay_near_starting_position": true,
+    "allowed_steps": "passos pequenos e naturais",
+    "allowed_lateral_shift": "pequeno deslocamento de lado",
+    "maximum_body_angle_degrees": 10,
+    "prohibited": ["deslocamento amplo", "virar de costas", "giro", "spin", "rotação de 360 graus"]
+  },
+  "motion": {
+    "continuity": "movimento corporal presente durante todo o vídeo",
+    "speed": "natural e levemente rápida",
+    "pacing": "constante, orgânico e sem aceleração artificial",
+    "pause_policy": "não pausar",
+    "freeze_policy": "não congelar",
+    "pose_loop_policy": "não repetir poses de forma mecânica",
+    "exaggeration": "nenhuma"
+  },
+  "body_performance": {
+    "hips": "movimento sutil e contínuo",
+    "weight_transfer": "alternância constante e discreta entre apoios",
+    "torso": "ajustes leves dentro do limite angular",
+    "shoulders": "relaxados, com micromovimentos naturais",
+    "arms": "reposicionamentos pequenos e espontâneos",
+    "hands": "gestos discretos, anatomicamente corretos e subordinados à apresentação"
+  },
+  "garment_interaction": {
+    "contact": "toque leve",
+    "target": "a própria roupa",
+    "purpose": "destacar caimento ou tecido sem interromper o fluxo corporal",
+    "prohibited": ["puxar", "esticar", "deformar", "mudar o design", "alterar o caimento de forma permanente"]
+  },
+  "face": {
+    "baseline_expression": "natural",
+    "smile": "breve e sutil",
+    "smile_frequency": "ocasional, nunca constante",
+    "avoid": ["sorriso congelado", "expressão exagerada", "olhar vazio", "mudança de identidade"]
+  },
+  "timeline": [
+    {"phase": "entrada", "relative_time": "0% a 20%", "action": "de frente para a câmera, iniciar imediatamente micromovimentos e transferência de peso"},
+    {"phase": "fluxo principal", "relative_time": "20% a 80%", "action": "alternar pequenos passos, deslocamentos laterais, movimento de quadril e toque leve na roupa sem parar"},
+    {"phase": "saída", "relative_time": "80% a 100%", "action": "manter o movimento contínuo, retornar próximo ao eixo inicial e finalizar sem pose congelada"}
+  ],
+  "continuity": {
+    "identity": "preservada",
+    "anatomy": "estável",
+    "garment": "preservado",
+    "background": "estático",
+    "motion": "sem saltos, teletransporte ou mudança abrupta de pose"
+  },
+  "negative_constraints": [
+    "rotação", "giro", "spin", "360 graus", "virar completamente",
+    "pausa", "congelamento", "pose estática", "deslocamento grande",
+    "movimento exagerado", "robótico", "mecânico", "coreografado",
+    "puxar a roupa", "deformar tecido", "mudar a identidade", "mover a câmera"
+  ],
+  "priority_order": ["movimento contínuo", "sem rotação", "permanecer perto do ponto inicial", "câmera fixa", "naturalidade", "interação leve com a roupa"]
+}
