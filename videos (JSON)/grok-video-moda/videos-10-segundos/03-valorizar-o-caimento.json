@@ -1,0 +1,86 @@
+{
+  "grok_video_prompt": {
+    "prompt_type": "Image-to-video fashion presentation",
+    "duration_target": "Approximately 10 seconds",
+    "language": "English",
+    "selection_instruction": "Use only biscoito_03_outfit_body_language. Do not combine it with another variation.",
+    "selected_variation_id": "biscoito_03_outfit_body_language",
+    "main_instruction": "Animate the woman from the uploaded base image as a real adult woman casually presenting her outfit in a hyper-realistic POV-style phone video. The video must feel attractive, charismatic and attention-grabbing, with a slightly flirty confidence, but still natural, tasteful and realistic. Preserve the original person, face, body, outfit, lighting, camera angle and background exactly.",
+    "global_rules": {
+      "base_image_usage": "Use the uploaded image as the only visual source.",
+      "identity": "Preserve the exact same woman from the image. Do not change facial structure, body proportions, skin tone, hair, expression style or age appearance.",
+      "outfit": "Preserve the exact same outfit from the image. Do not add or remove clothing details.",
+      "environment": "Preserve the original background, lighting, shadows, camera angle, lens perspective and composition.",
+      "camera": "POV phone recording, subtle handheld micro-movements only, no zoom, no shake, no cinematic camera movement.",
+      "style": "Hyper-realistic, casual, magnetic, soft flirt energy, confident but not exaggerated.",
+      "audio": "No talking, no voice, no music, no sound effects.",
+      "visual_restrictions": "No text, no subtitles, no UI, no overlays, no effects, no stickers, no logos.",
+      "sexualization_limit": "Attractive and attention-grabbing, but tasteful. No explicit sexual behavior, no vulgar posing, no exaggerated sensuality, no twerking, no licking lips, no inappropriate gestures.",
+      "anti_ai_rules": [
+        "No robotic movement",
+        "No frozen smile",
+        "No mannequin stillness",
+        "No face morphing",
+        "No skin smoothing",
+        "No beauty filter",
+        "No warped hands",
+        "No extra fingers",
+        "No distorted clothing",
+        "No changing the outfit",
+        "No background distortion"
+      ]
+    },
+    "variation": {
+      "variation_id": "biscoito_03_outfit_body_language",
+      "name": "Valorizar o caimento",
+      "best_for": "Videos where the outfit shape, waist, fit or silhouette needs to look more attractive.",
+      "viewer_hook_goal": "Use posture, small hip shifts and torso angle changes to make the outfit look more visually appealing while staying realistic.",
+      "timeline": [
+        {
+          "time": "0.0s - 1.0s",
+          "action": "The subject begins facing the camera with a neutral, calm expression. She is not frozen; subtle breathing is visible."
+        },
+        {
+          "time": "1.0s - 2.2s",
+          "action": "She gently shifts her weight onto one leg. One hand naturally moves to rest on the waist or side of the body."
+        },
+        {
+          "time": "2.2s - 3.5s",
+          "action": "She slightly rotates her torso to one side, only a few degrees, to show the outfit silhouette. The movement is smooth and controlled."
+        },
+        {
+          "time": "3.5s - 4.8s",
+          "action": "She returns her face toward the camera while keeping the body slightly angled. A small confident smile appears briefly and fades."
+        },
+        {
+          "time": "4.8s - 6.0s",
+          "action": "The free hand lightly smooths the existing fabric at the front or side of the outfit. Do not pull, stretch or reshape the clothing."
+        },
+        {
+          "time": "6.0s - 7.4s",
+          "action": "She takes one very small step forward, keeping balance natural. The outfit moves with realistic fabric physics."
+        },
+        {
+          "time": "7.4s - 8.8s",
+          "action": "She makes a subtle hip shift side-to-side, extremely mild and tasteful, as if naturally adjusting her stance."
+        },
+        {
+          "time": "8.8s - 10.0s",
+          "action": "She turns her head slightly to one side, then back to the camera. Her expression becomes soft and approachable, then returns to neutral."
+        }
+      ],
+      "expression_direction": "Confident, slightly flirty, but controlled. Neutral moments must remain present.",
+      "negative_prompt": [
+        "No twerking",
+        "No dance",
+        "No exaggerated waist movement",
+        "No sexual pose",
+        "No full spin",
+        "No runway walk",
+        "No body distortion",
+        "No changing the clothing"
+      ],
+      "best_for_pt": "Destacar cintura, formato e caimento da roupa."
+    }
+  }
+}

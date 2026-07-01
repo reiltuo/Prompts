@@ -5,137 +5,62 @@
   "source_conversation_id": "6a41eb53-67b4-83e9-a625-aa0e131a3078",
   "counts": {
     "original_json_blocks": 3,
-    "hooks": 18,
-    "complete_sequences": 5
+    "hooks": 7,
+    "complete_sequences": 5,
+    "ten_second_videos": 5
   },
   "original_files": [
     "00-prompt-base-completo.json",
     "00-pacote-hooks-adicionais.json",
-    "00-pacote-sequencias-completas.json"
+    "00-pacote-sequencias-completas.json",
+    "00-pacote-videos-10-segundos.json"
   ],
   "hooks": [
     {
       "order": 1,
-      "file": "01-passo-e-olhar.json",
-      "hook_id": "hook_01_micro_step_eye_contact",
-      "name": "Passo e olhar",
-      "description": "The subject begins at the original distance, makes brief natural eye contact with the camera, then takes one small step forward as if casually starting to show the outfit."
-    },
-    {
-      "order": 2,
-      "file": "02-virar-e-olhar.json",
-      "hook_id": "hook_02_subtle_head_turn_then_focus",
-      "name": "Virar e olhar",
-      "description": "The subject starts with her head slightly turned away, then gently turns her face toward the camera, creating a natural attention hook before presenting the outfit."
-    },
-    {
-      "order": 3,
-      "file": "03-tocar-no-tecido.json",
+      "file": "01-tocar-no-tecido.json",
       "hook_id": "hook_03_soft_fabric_attention",
       "name": "Tocar no tecido",
       "description": "The subject immediately creates attention by lightly touching the upper-front area of the outfit that already exists in the image, as if showing fabric texture or fit."
     },
     {
-      "order": 4,
-      "file": "04-mao-na-cintura.json",
-      "hook_id": "hook_04_weight_shift_waist_hand",
-      "name": "Mão na cintura",
-      "description": "The subject uses a subtle body-language hook: a small posture adjustment, one hand resting naturally on the waist and a soft shift of the hips."
-    },
-    {
-      "order": 5,
-      "file": "05-virar-o-corpo.json",
-      "hook_id": "hook_05_small_torso_angle_change",
-      "name": "Virar o corpo",
-      "description": "The subject creates attention by slightly rotating her torso, naturally revealing the fit and silhouette of the outfit without posing aggressively."
-    },
-    {
-      "order": 6,
-      "file": "06-ajustar-o-cabelo.json",
-      "hook_id": "hook_06_hair_adjustment_intro",
-      "name": "Ajustar o cabelo",
-      "description": "The subject starts the video with a casual self-adjustment gesture, lightly brushing hair backward near the side of the head before presenting the outfit."
-    },
-    {
-      "order": 7,
-      "file": "07-olhar-roupa-e-camera.json",
+      "order": 2,
+      "file": "02-olhar-roupa-e-camera.json",
       "hook_id": "hook_07_quick_glance_down_then_camera",
       "name": "Olhar roupa e câmera",
-      "description": "Creates attention by making the subject briefly acknowledge the outfit before looking back at the viewer."
+      "description": "Olhar rapidamente para a roupa e depois para a câmera."
     },
     {
-      "order": 8,
-      "file": "08-ajustar-os-ombros.json",
+      "order": 3,
+      "file": "03-ajustar-os-ombros.json",
       "hook_id": "hook_08_subtle_shoulder_reset",
       "name": "Ajustar os ombros",
       "description": "Captures attention through a realistic posture adjustment, like a person preparing to show the outfit naturally."
     },
     {
-      "order": 9,
-      "file": "09-passo-e-sorriso.json",
-      "hook_id": "hook_09_half_step_with_soft_smile",
-      "name": "Passo e sorriso",
-      "description": "Creates a natural approach hook without looking like a runway walk."
-    },
-    {
-      "order": 10,
-      "file": "10-ajustar-a-roupa.json",
+      "order": 4,
+      "file": "04-ajustar-a-roupa.json",
       "hook_id": "hook_10_light_sleeve_or_side_adjustment",
       "name": "Ajustar a roupa",
       "description": "Uses a realistic clothing-adjustment gesture to catch attention while preserving the original outfit."
     },
     {
-      "order": 11,
-      "file": "11-mostrar-de-lado.json",
-      "hook_id": "hook_11_small_side_angle_reveal",
-      "name": "Mostrar de lado",
-      "description": "Shows the fit of the outfit with a slight angle change, creating visual interest without a full turn."
-    },
-    {
-      "order": 12,
-      "file": "12-respirar-e-olhar.json",
-      "hook_id": "hook_12_natural_breath_and_eye_contact",
-      "name": "Respirar e olhar",
-      "description": "Creates a realistic human presence through small breathing motion and calm eye contact."
-    },
-    {
-      "order": 13,
-      "file": "13-levantar-a-mao.json",
+      "order": 5,
+      "file": "05-levantar-a-mao.json",
       "hook_id": "hook_13_hand_enters_frame_naturally",
       "name": "Levantar a mão",
       "description": "Catches attention through a hand movement that enters the viewer's focus without becoming distracting."
     },
     {
-      "order": 14,
-      "file": "14-recuar-e-avancar.json",
+      "order": 6,
+      "file": "06-recuar-e-avancar.json",
       "hook_id": "hook_14_small_backward_then_forward_motion",
       "name": "Recuar e avançar",
       "description": "Creates dynamic attention by using a very small natural distance change without zoom or camera movement."
     },
     {
-      "order": 15,
-      "file": "15-cabelo-e-roupa.json",
-      "hook_id": "hook_15_soft_hair_tuck_then_outfit_touch",
-      "name": "Cabelo e roupa",
-      "description": "Combines a realistic self-adjustment with a clothing presentation cue."
-    },
-    {
-      "order": 16,
-      "file": "16-perceber-a-camera.json",
-      "hook_id": "hook_16_camera_awareness_micro_reaction",
-      "name": "Perceber a câmera",
-      "description": "Makes the subject feel alive by showing a tiny reaction as if she just noticed the camera recording."
-    },
-    {
-      "order": 17,
-      "file": "17-conferir-a-roupa.json",
-      "hook_id": "hook_17_outfit_silhouette_check",
-      "name": "Conferir a roupa",
-      "description": "Creates attention by showing the subject briefly checking the fit and silhouette of the outfit."
-    },
-    {
-      "order": 18,
-      "file": "18-virar-sem-sorrir.json",
+      "order": 7,
+      "file": "07-virar-sem-sorrir.json",
       "hook_id": "hook_18_soft_turn_with_neutral_face",
       "name": "Virar sem sorrir",
       "description": "Uses controlled body movement to create visual interest without relying on smiles or exaggerated gestures."
@@ -176,6 +101,43 @@
       "sequence_id": "sequence_05_real_person_idle_to_presenting",
       "name": "Agir naturalmente",
       "best_for": "Making AI-generated women look more human and less staged."
+    }
+  ],
+  "ten_second_videos": [
+    {
+      "order": 1,
+      "file": "01-aproximar-com-confianca.json",
+      "variation_id": "biscoito_01_soft_confident_approach",
+      "name": "Aproximar com confiança",
+      "summary": "Atrair pelo olhar, sorriso leve e aproximação controlada."
+    },
+    {
+      "order": 2,
+      "file": "02-olhar-com-charme.json",
+      "variation_id": "biscoito_02_playful_eye_contact",
+      "name": "Olhar com charme",
+      "summary": "Prender atenção com olhar, expressão e ajuste natural do cabelo."
+    },
+    {
+      "order": 3,
+      "file": "03-valorizar-o-caimento.json",
+      "variation_id": "biscoito_03_outfit_body_language",
+      "name": "Valorizar o caimento",
+      "summary": "Destacar cintura, formato e caimento da roupa."
+    },
+    {
+      "order": 4,
+      "file": "04-aproximar-sem-zoom.json",
+      "variation_id": "biscoito_04_close_presence_without_zoom",
+      "name": "Aproximar sem zoom",
+      "summary": "Criar proximidade movendo a pessoa, sem movimentar a câmera."
+    },
+    {
+      "order": 5,
+      "file": "05-chamar-atencao-naturalmente.json",
+      "variation_id": "biscoito_05_casual_thirst_trap_tasteful",
+      "name": "Chamar atenção naturalmente",
+      "summary": "Aumentar a atração visual com naturalidade e sem exagero."
     }
   ]
 }

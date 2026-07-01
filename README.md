@@ -65,6 +65,6 @@ Prompts organizados por tipo de uso. Cada item tem uma página visual em `.md` e
 
 ## Coleção Grok para vídeo de moda
 
-Coleção com 18 aberturas e 5 sequências completas, separados em JSON pronto para uso com imagem base.
+Coleção com 7 aberturas sem repetição, 5 vídeos de 10 segundos e 5 sequências completas em JSON.
 
 [Abrir coleção Grok](videos%20%28JSON%29/grok-video-moda/README.md)

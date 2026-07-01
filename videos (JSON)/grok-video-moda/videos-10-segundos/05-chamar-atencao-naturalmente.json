@@ -1,0 +1,94 @@
+{
+  "grok_video_prompt": {
+    "prompt_type": "Image-to-video fashion presentation",
+    "duration_target": "Approximately 10 seconds",
+    "language": "English",
+    "selection_instruction": "Use only biscoito_05_casual_thirst_trap_tasteful. Do not combine it with another variation.",
+    "selected_variation_id": "biscoito_05_casual_thirst_trap_tasteful",
+    "main_instruction": "Animate the woman from the uploaded base image as a real adult woman casually presenting her outfit in a hyper-realistic POV-style phone video. The video must feel attractive, charismatic and attention-grabbing, with a slightly flirty confidence, but still natural, tasteful and realistic. Preserve the original person, face, body, outfit, lighting, camera angle and background exactly.",
+    "global_rules": {
+      "base_image_usage": "Use the uploaded image as the only visual source.",
+      "identity": "Preserve the exact same woman from the image. Do not change facial structure, body proportions, skin tone, hair, expression style or age appearance.",
+      "outfit": "Preserve the exact same outfit from the image. Do not add or remove clothing details.",
+      "environment": "Preserve the original background, lighting, shadows, camera angle, lens perspective and composition.",
+      "camera": "POV phone recording, subtle handheld micro-movements only, no zoom, no shake, no cinematic camera movement.",
+      "style": "Hyper-realistic, casual, magnetic, soft flirt energy, confident but not exaggerated.",
+      "audio": "No talking, no voice, no music, no sound effects.",
+      "visual_restrictions": "No text, no subtitles, no UI, no overlays, no effects, no stickers, no logos.",
+      "sexualization_limit": "Attractive and attention-grabbing, but tasteful. No explicit sexual behavior, no vulgar posing, no exaggerated sensuality, no twerking, no licking lips, no inappropriate gestures.",
+      "anti_ai_rules": [
+        "No robotic movement",
+        "No frozen smile",
+        "No mannequin stillness",
+        "No face morphing",
+        "No skin smoothing",
+        "No beauty filter",
+        "No warped hands",
+        "No extra fingers",
+        "No distorted clothing",
+        "No changing the outfit",
+        "No background distortion"
+      ]
+    },
+    "variation": {
+      "variation_id": "biscoito_05_casual_thirst_trap_tasteful",
+      "name": "Chamar atenção naturalmente",
+      "best_for": "A more 'biscoitando' version while still looking like a real casual fashion recording.",
+      "viewer_hook_goal": "Create stronger visual attraction using confidence, timing, eye contact, subtle smile, posture and outfit presentation, without becoming vulgar.",
+      "timeline": [
+        {
+          "time": "0.0s - 1.0s",
+          "action": "The subject starts with her face neutral, looking slightly away from the camera. Her body remains relaxed and natural."
+        },
+        {
+          "time": "1.0s - 2.0s",
+          "action": "She turns her eyes toward the camera first, then slowly turns her head. The movement should feel magnetic but realistic."
+        },
+        {
+          "time": "2.0s - 3.0s",
+          "action": "A soft confident smile appears briefly. She slightly shifts her weight, creating a natural curve in the posture without exaggeration."
+        },
+        {
+          "time": "3.0s - 4.3s",
+          "action": "One hand moves naturally to the waist. The other hand stays relaxed near the body."
+        },
+        {
+          "time": "4.3s - 5.8s",
+          "action": "She gently rotates her torso a few degrees to show the outfit fit. The movement is subtle, attractive and casual."
+        },
+        {
+          "time": "5.8s - 7.0s",
+          "action": "She lightly touches the existing front or side fabric area, smoothing it delicately with relaxed fingers."
+        },
+        {
+          "time": "7.0s - 8.2s",
+          "action": "She releases the fabric and takes one small step forward, keeping the camera framing stable and natural."
+        },
+        {
+          "time": "8.2s - 9.2s",
+          "action": "She briefly brushes hair backward near the side of the head. The gesture is quick, effortless and realistic."
+        },
+        {
+          "time": "9.2s - 10.0s",
+          "action": "She looks directly at the camera with a warm soft smile, then lets the smile fade naturally before the end."
+        }
+      ],
+      "expression_direction": "More magnetic than neutral, but never exaggerated. Use soft eye contact, tiny smiles and relaxed confidence.",
+      "negative_prompt": [
+        "No vulgar posing",
+        "No explicit sensuality",
+        "No lip biting",
+        "No tongue movement",
+        "No chest pushing",
+        "No twerking",
+        "No exaggerated hip movement",
+        "No dance",
+        "No overacting",
+        "No constant grin",
+        "No outfit change",
+        "No added accessories"
+      ],
+      "best_for_pt": "Aumentar a atração visual com naturalidade e sem exagero."
+    }
+  }
+}

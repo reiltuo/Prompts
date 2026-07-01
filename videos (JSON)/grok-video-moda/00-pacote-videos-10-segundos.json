@@ -1,0 +1,302 @@
+{
+  "grok_video_prompt_pack": {
+    "prompt_type": "Image-to-video fashion presentation",
+    "duration_target": "Approximately 10 seconds",
+    "language": "English",
+    "main_instruction": "Animate the woman from the uploaded base image as a real adult woman casually presenting her outfit in a hyper-realistic POV-style phone video. The video must feel attractive, charismatic and attention-grabbing, with a slightly flirty confidence, but still natural, tasteful and realistic. Preserve the original person, face, body, outfit, lighting, camera angle and background exactly.",
+    "global_rules": {
+      "base_image_usage": "Use the uploaded image as the only visual source.",
+      "identity": "Preserve the exact same woman from the image. Do not change facial structure, body proportions, skin tone, hair, expression style or age appearance.",
+      "outfit": "Preserve the exact same outfit from the image. Do not add or remove clothing details.",
+      "environment": "Preserve the original background, lighting, shadows, camera angle, lens perspective and composition.",
+      "camera": "POV phone recording, subtle handheld micro-movements only, no zoom, no shake, no cinematic camera movement.",
+      "style": "Hyper-realistic, casual, magnetic, soft flirt energy, confident but not exaggerated.",
+      "audio": "No talking, no voice, no music, no sound effects.",
+      "visual_restrictions": "No text, no subtitles, no UI, no overlays, no effects, no stickers, no logos.",
+      "sexualization_limit": "Attractive and attention-grabbing, but tasteful. No explicit sexual behavior, no vulgar posing, no exaggerated sensuality, no twerking, no licking lips, no inappropriate gestures.",
+      "anti_ai_rules": [
+        "No robotic movement",
+        "No frozen smile",
+        "No mannequin stillness",
+        "No face morphing",
+        "No skin smoothing",
+        "No beauty filter",
+        "No warped hands",
+        "No extra fingers",
+        "No distorted clothing",
+        "No changing the outfit",
+        "No background distortion"
+      ]
+    },
+    "ready_variations": [
+      {
+        "variation_id": "biscoito_01_soft_confident_approach",
+        "name": "Aproximar com confiança",
+        "best_for": "General fashion video where the woman needs to look attractive, confident and natural.",
+        "viewer_hook_goal": "Make the viewer feel noticed by the subject through eye contact, soft facial timing and a controlled approach toward the camera.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.2s",
+            "action": "The subject starts at the original distance with a neutral relaxed face. She makes calm eye contact with the camera, then slightly tilts her head as if noticing the viewer. The expression is subtle, not exaggerated."
+          },
+          {
+            "time": "1.2s - 2.5s",
+            "action": "A very brief soft smile appears and fades naturally. She shifts her weight gently from one leg to the other, creating a small natural body movement."
+          },
+          {
+            "time": "2.5s - 4.0s",
+            "action": "She takes one small step forward toward the camera. The step is smooth, casual and confident, not runway-like. Her arms move naturally with the body."
+          },
+          {
+            "time": "4.0s - 5.3s",
+            "action": "One hand gently moves to the upper-front fabric area of the existing outfit. She lightly touches or smooths the fabric as if showing the fit and texture. Do not add any new clothing detail."
+          },
+          {
+            "time": "5.3s - 6.8s",
+            "action": "She releases the fabric and lets one hand naturally rest on the waist. Her expression returns to neutral with relaxed lips and natural breathing."
+          },
+          {
+            "time": "6.8s - 8.2s",
+            "action": "She performs a subtle torso rotation, only a few degrees, to show the outfit fit. The movement is attractive but tasteful, with a slight hip shift and relaxed shoulders."
+          },
+          {
+            "time": "8.2s - 9.4s",
+            "action": "She looks slightly away from the camera for a moment, then looks back. A short warm smile appears, like a natural flirtatious reaction, then softens."
+          },
+          {
+            "time": "9.4s - 10.0s",
+            "action": "She settles into a relaxed stance, still alive with micro-movements, no frozen final pose."
+          }
+        ],
+        "expression_direction": "Neutral eye contact, brief soft smile, neutral again, then a second small smile near the end. No constant grin.",
+        "negative_prompt": [
+          "No exaggerated sensual posing",
+          "No vulgar expression",
+          "No lip biting",
+          "No twerking",
+          "No dance",
+          "No constant smile",
+          "No outfit change",
+          "No added accessories",
+          "No zoom"
+        ],
+        "best_for_pt": "Atrair pelo olhar, sorriso leve e aproximação controlada."
+      },
+      {
+        "variation_id": "biscoito_02_playful_eye_contact",
+        "name": "Olhar com charme",
+        "best_for": "Videos where the goal is to hold attention through facial expression, eye contact and subtle charisma.",
+        "viewer_hook_goal": "Create a feeling that the subject is directly interacting with the viewer without talking.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.0s",
+            "action": "The subject starts relaxed, looking slightly off-camera. Her face is neutral and calm."
+          },
+          {
+            "time": "1.0s - 2.0s",
+            "action": "She slowly turns her eyes toward the camera before turning her head fully. The eye movement should feel intentional but natural, like she just noticed the viewer."
+          },
+          {
+            "time": "2.0s - 3.0s",
+            "action": "A tiny playful smile appears for less than one second. The smile is controlled, soft and realistic, with slight cheek movement only."
+          },
+          {
+            "time": "3.0s - 4.2s",
+            "action": "She gently adjusts her posture, lifting her upper body slightly with natural breathing. One shoulder moves subtly backward, making the outfit look more presentable."
+          },
+          {
+            "time": "4.2s - 5.8s",
+            "action": "One hand lightly touches the existing clothing area near the front or side, depending on the outfit. The fingers remain relaxed and anatomically correct."
+          },
+          {
+            "time": "5.8s - 7.0s",
+            "action": "She releases the fabric and makes a small side-to-side weight shift. The movement should feel attractive and human, not like dancing."
+          },
+          {
+            "time": "7.0s - 8.5s",
+            "action": "She gently brushes hair backward near the side of the head. The gesture is casual, quick and natural, lasting about one second."
+          },
+          {
+            "time": "8.5s - 10.0s",
+            "action": "She looks back at the camera with a soft confident expression. The smile fades naturally into a relaxed neutral face before the video ends."
+          }
+        ],
+        "expression_direction": "Slightly playful but not exaggerated. The face must alternate between neutral, soft smile and relaxed attention.",
+        "negative_prompt": [
+          "No seductive overacting",
+          "No exaggerated wink",
+          "No open-mouth posing",
+          "No forced smile",
+          "No hair flip",
+          "No jewelry addition",
+          "No clothing redesign",
+          "No artificial beauty filter"
+        ],
+        "best_for_pt": "Prender atenção com olhar, expressão e ajuste natural do cabelo."
+      },
+      {
+        "variation_id": "biscoito_03_outfit_body_language",
+        "name": "Valorizar o caimento",
+        "best_for": "Videos where the outfit shape, waist, fit or silhouette needs to look more attractive.",
+        "viewer_hook_goal": "Use posture, small hip shifts and torso angle changes to make the outfit look more visually appealing while staying realistic.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.0s",
+            "action": "The subject begins facing the camera with a neutral, calm expression. She is not frozen; subtle breathing is visible."
+          },
+          {
+            "time": "1.0s - 2.2s",
+            "action": "She gently shifts her weight onto one leg. One hand naturally moves to rest on the waist or side of the body."
+          },
+          {
+            "time": "2.2s - 3.5s",
+            "action": "She slightly rotates her torso to one side, only a few degrees, to show the outfit silhouette. The movement is smooth and controlled."
+          },
+          {
+            "time": "3.5s - 4.8s",
+            "action": "She returns her face toward the camera while keeping the body slightly angled. A small confident smile appears briefly and fades."
+          },
+          {
+            "time": "4.8s - 6.0s",
+            "action": "The free hand lightly smooths the existing fabric at the front or side of the outfit. Do not pull, stretch or reshape the clothing."
+          },
+          {
+            "time": "6.0s - 7.4s",
+            "action": "She takes one very small step forward, keeping balance natural. The outfit moves with realistic fabric physics."
+          },
+          {
+            "time": "7.4s - 8.8s",
+            "action": "She makes a subtle hip shift side-to-side, extremely mild and tasteful, as if naturally adjusting her stance."
+          },
+          {
+            "time": "8.8s - 10.0s",
+            "action": "She turns her head slightly to one side, then back to the camera. Her expression becomes soft and approachable, then returns to neutral."
+          }
+        ],
+        "expression_direction": "Confident, slightly flirty, but controlled. Neutral moments must remain present.",
+        "negative_prompt": [
+          "No twerking",
+          "No dance",
+          "No exaggerated waist movement",
+          "No sexual pose",
+          "No full spin",
+          "No runway walk",
+          "No body distortion",
+          "No changing the clothing"
+        ],
+        "best_for_pt": "Destacar cintura, formato e caimento da roupa."
+      },
+      {
+        "variation_id": "biscoito_04_close_presence_without_zoom",
+        "name": "Aproximar sem zoom",
+        "best_for": "Videos where the subject needs to feel closer and more engaging without camera zoom.",
+        "viewer_hook_goal": "Make the viewer feel pulled into the video through the subject's small forward movement and direct presence.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.3s",
+            "action": "The subject starts at the original distance. She makes soft eye contact with the camera, then lets her gaze briefly move downward toward the outfit."
+          },
+          {
+            "time": "1.3s - 2.8s",
+            "action": "She takes one small natural step forward. The camera does not zoom; only the subject moves slightly closer."
+          },
+          {
+            "time": "2.8s - 4.0s",
+            "action": "She pauses naturally in the closer position, still breathing and moving subtly. A tiny smile appears, then fades."
+          },
+          {
+            "time": "4.0s - 5.5s",
+            "action": "She lightly touches the existing front fabric area with relaxed fingers, as if drawing attention to the clothing fit."
+          },
+          {
+            "time": "5.5s - 6.7s",
+            "action": "She releases the fabric and lowers the hand naturally. Her other hand may rest softly near the waist."
+          },
+          {
+            "time": "6.7s - 8.0s",
+            "action": "She gently leans her upper body back a few centimeters to return to a more natural distance, without stepping dramatically."
+          },
+          {
+            "time": "8.0s - 9.2s",
+            "action": "She brushes hair backward or makes a small posture adjustment, whichever looks more natural for the base image."
+          },
+          {
+            "time": "9.2s - 10.0s",
+            "action": "She ends with calm eye contact and a relaxed expression, not smiling constantly and not frozen."
+          }
+        ],
+        "expression_direction": "Eye contact is the main attraction. Smile appears briefly only twice at most.",
+        "negative_prompt": [
+          "No zoom",
+          "No sudden close-up",
+          "No face distortion",
+          "No exaggerated flirt",
+          "No artificial smile",
+          "No added clothing decorations",
+          "No camera shake"
+        ],
+        "best_for_pt": "Criar proximidade movendo a pessoa, sem movimentar a câmera."
+      },
+      {
+        "variation_id": "biscoito_05_casual_thirst_trap_tasteful",
+        "name": "Chamar atenção naturalmente",
+        "best_for": "A more 'biscoitando' version while still looking like a real casual fashion recording.",
+        "viewer_hook_goal": "Create stronger visual attraction using confidence, timing, eye contact, subtle smile, posture and outfit presentation, without becoming vulgar.",
+        "timeline": [
+          {
+            "time": "0.0s - 1.0s",
+            "action": "The subject starts with her face neutral, looking slightly away from the camera. Her body remains relaxed and natural."
+          },
+          {
+            "time": "1.0s - 2.0s",
+            "action": "She turns her eyes toward the camera first, then slowly turns her head. The movement should feel magnetic but realistic."
+          },
+          {
+            "time": "2.0s - 3.0s",
+            "action": "A soft confident smile appears briefly. She slightly shifts her weight, creating a natural curve in the posture without exaggeration."
+          },
+          {
+            "time": "3.0s - 4.3s",
+            "action": "One hand moves naturally to the waist. The other hand stays relaxed near the body."
+          },
+          {
+            "time": "4.3s - 5.8s",
+            "action": "She gently rotates her torso a few degrees to show the outfit fit. The movement is subtle, attractive and casual."
+          },
+          {
+            "time": "5.8s - 7.0s",
+            "action": "She lightly touches the existing front or side fabric area, smoothing it delicately with relaxed fingers."
+          },
+          {
+            "time": "7.0s - 8.2s",
+            "action": "She releases the fabric and takes one small step forward, keeping the camera framing stable and natural."
+          },
+          {
+            "time": "8.2s - 9.2s",
+            "action": "She briefly brushes hair backward near the side of the head. The gesture is quick, effortless and realistic."
+          },
+          {
+            "time": "9.2s - 10.0s",
+            "action": "She looks directly at the camera with a warm soft smile, then lets the smile fade naturally before the end."
+          }
+        ],
+        "expression_direction": "More magnetic than neutral, but never exaggerated. Use soft eye contact, tiny smiles and relaxed confidence.",
+        "negative_prompt": [
+          "No vulgar posing",
+          "No explicit sensuality",
+          "No lip biting",
+          "No tongue movement",
+          "No chest pushing",
+          "No twerking",
+          "No exaggerated hip movement",
+          "No dance",
+          "No overacting",
+          "No constant grin",
+          "No outfit change",
+          "No added accessories"
+        ],
+        "best_for_pt": "Aumentar a atração visual com naturalidade e sem exagero."
+      }
+    ]
+  }
+}

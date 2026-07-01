@@ -1,0 +1,86 @@
+{
+  "grok_video_prompt": {
+    "prompt_type": "Image-to-video fashion presentation",
+    "duration_target": "Approximately 10 seconds",
+    "language": "English",
+    "selection_instruction": "Use only biscoito_02_playful_eye_contact. Do not combine it with another variation.",
+    "selected_variation_id": "biscoito_02_playful_eye_contact",
+    "main_instruction": "Animate the woman from the uploaded base image as a real adult woman casually presenting her outfit in a hyper-realistic POV-style phone video. The video must feel attractive, charismatic and attention-grabbing, with a slightly flirty confidence, but still natural, tasteful and realistic. Preserve the original person, face, body, outfit, lighting, camera angle and background exactly.",
+    "global_rules": {
+      "base_image_usage": "Use the uploaded image as the only visual source.",
+      "identity": "Preserve the exact same woman from the image. Do not change facial structure, body proportions, skin tone, hair, expression style or age appearance.",
+      "outfit": "Preserve the exact same outfit from the image. Do not add or remove clothing details.",
+      "environment": "Preserve the original background, lighting, shadows, camera angle, lens perspective and composition.",
+      "camera": "POV phone recording, subtle handheld micro-movements only, no zoom, no shake, no cinematic camera movement.",
+      "style": "Hyper-realistic, casual, magnetic, soft flirt energy, confident but not exaggerated.",
+      "audio": "No talking, no voice, no music, no sound effects.",
+      "visual_restrictions": "No text, no subtitles, no UI, no overlays, no effects, no stickers, no logos.",
+      "sexualization_limit": "Attractive and attention-grabbing, but tasteful. No explicit sexual behavior, no vulgar posing, no exaggerated sensuality, no twerking, no licking lips, no inappropriate gestures.",
+      "anti_ai_rules": [
+        "No robotic movement",
+        "No frozen smile",
+        "No mannequin stillness",
+        "No face morphing",
+        "No skin smoothing",
+        "No beauty filter",
+        "No warped hands",
+        "No extra fingers",
+        "No distorted clothing",
+        "No changing the outfit",
+        "No background distortion"
+      ]
+    },
+    "variation": {
+      "variation_id": "biscoito_02_playful_eye_contact",
+      "name": "Olhar com charme",
+      "best_for": "Videos where the goal is to hold attention through facial expression, eye contact and subtle charisma.",
+      "viewer_hook_goal": "Create a feeling that the subject is directly interacting with the viewer without talking.",
+      "timeline": [
+        {
+          "time": "0.0s - 1.0s",
+          "action": "The subject starts relaxed, looking slightly off-camera. Her face is neutral and calm."
+        },
+        {
+          "time": "1.0s - 2.0s",
+          "action": "She slowly turns her eyes toward the camera before turning her head fully. The eye movement should feel intentional but natural, like she just noticed the viewer."
+        },
+        {
+          "time": "2.0s - 3.0s",
+          "action": "A tiny playful smile appears for less than one second. The smile is controlled, soft and realistic, with slight cheek movement only."
+        },
+        {
+          "time": "3.0s - 4.2s",
+          "action": "She gently adjusts her posture, lifting her upper body slightly with natural breathing. One shoulder moves subtly backward, making the outfit look more presentable."
+        },
+        {
+          "time": "4.2s - 5.8s",
+          "action": "One hand lightly touches the existing clothing area near the front or side, depending on the outfit. The fingers remain relaxed and anatomically correct."
+        },
+        {
+          "time": "5.8s - 7.0s",
+          "action": "She releases the fabric and makes a small side-to-side weight shift. The movement should feel attractive and human, not like dancing."
+        },
+        {
+          "time": "7.0s - 8.5s",
+          "action": "She gently brushes hair backward near the side of the head. The gesture is casual, quick and natural, lasting about one second."
+        },
+        {
+          "time": "8.5s - 10.0s",
+          "action": "She looks back at the camera with a soft confident expression. The smile fades naturally into a relaxed neutral face before the video ends."
+        }
+      ],
+      "expression_direction": "Slightly playful but not exaggerated. The face must alternate between neutral, soft smile and relaxed attention.",
+      "negative_prompt": [
+        "No seductive overacting",
+        "No exaggerated wink",
+        "No open-mouth posing",
+        "No forced smile",
+        "No hair flip",
+        "No jewelry addition",
+        "No clothing redesign",
+        "No artificial beauty filter"
+      ],
+      "best_for_pt": "Prender atenção com olhar, expressão e ajuste natural do cabelo."
+    }
+  }
+}
